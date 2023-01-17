@@ -1,0 +1,11 @@
+
+
+.partners-container{
+    background: #B1B1B1;
+    padding: 40px 200px ;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

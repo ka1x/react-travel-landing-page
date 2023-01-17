@@ -1,0 +1,7 @@
+.packages{
+    background:#252525}
+
+.cards-container{
+    display: flex; 
+    flex-direction: row;
+}

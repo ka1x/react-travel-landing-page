@@ -1,0 +1,14 @@
+
+
+changes:
+
+    - clean up hero section css
+    - fix links and ids
+    - fix explore section !!
+
+
+
+features:
+
+    -some animations 
+    - media tablet and mobile 
