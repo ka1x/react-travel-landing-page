@@ -1,3 +1,43 @@
 .reviews {
 	background: black;
+	position: relative;
+	color: #fff;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)), url(../../assets/reviews-bg.jpg) no-repeat;
+	background-size: cover;
+}
+
+.reviews h1 {
+	font-weight: 500;
+	font-size: 34px;
+	margin: 70px;
+	text-align: center;
+}
+
+.review-container {
+	display: flex;
+	flex-direction: row;
+	margin: 0 100px 130px 100px;
+	gap: 80px;
+	justify-content: space-between;
+}
+.name h3 {
+	font-weight: 500;
+	font-size: 21px;
+}
+
+.location {
+	justify-content: flex-start;
+
+}
+.location h4{
+	font-weight: 300;
+	font-size: 18px;
+	color: #f3f3f3;
+}
+
+.desc-container p{
+	margin: 45px 0;
+	font-weight: 300;
+
+	line-height: 1.8rem;
 }

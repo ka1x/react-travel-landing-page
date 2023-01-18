@@ -1,5 +1,5 @@
 .hero {
-	margin-top: 60px;
+	padding-top: 50px;
 	display: grid;
 	grid-template-columns: 3fr 1fr 1fr 1fr;
 	grid-template-rows: 4fr 1fr;

@@ -10,7 +10,7 @@ import partner_4 from './partner-4.png';
 import card_1 from './card-1.png';
 import card_2 from './card-2.png';
 import card_3 from './card-3.png';
-import card_4 from './card-4.png'; 
+import card_4 from './card-4.png';
 import heart from './heart.png';
 import location from './location-tick.png';
 import services_1 from './services-1.png';
@@ -23,7 +23,13 @@ import recommendations from './recommendations.png';
 import booking from './booking.png';
 import arrow_left from './arrow-left.png';
 import arrow_right from './arrow-right.png';
+import profile from './profile-2user.png';
+import calendar from './note-add.png';
+import star from './star.png';
+import socials_messenger from './messenger.png';
+import socials_instagram from './instagram.png';
+import socials_figma from './figma.png';
+import socials_be from './be.png';
+import gold_star from './gold-star.png';
 
-export{
-    logo, hero_bg, hero_1, hero_2, hero_3, partner_1, partner_2, partner_3, partner_4, card_1, card_2, card_3, card_4, heart, location, services_1, services_2, services_3,package_1, package_2, package_3, recommendations, booking, arrow_left, arrow_right
-}
+export {logo, hero_bg, hero_1, hero_2, hero_3, partner_1, partner_2, partner_3, partner_4, card_1, card_2, card_3, card_4, heart, location, services_1, services_2, services_3, package_1, package_2, package_3, recommendations, booking, arrow_left, arrow_right, profile, calendar, star, socials_be, socials_figma, socials_instagram, socials_messenger, gold_star};

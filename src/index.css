@@ -20,6 +20,11 @@
 
 * {
 	font-family: 'Poppins';
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
 }
 
 html {
@@ -50,6 +55,9 @@ p {
 	line-height: 22px;
 	color: #ffffff;
 }
+h1{
+	margin: 0.67em;
+}
 
 h2 {
 	font-family: 'Poppins';
@@ -71,4 +79,10 @@ line-height: 36px;
 /* identical to box height */
 
 letter-spacing: 0.01em;
+}
+
+input, textarea, button{
+		background: none;
+		outline: none;
+		border: none;
 }

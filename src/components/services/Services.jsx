@@ -4,7 +4,7 @@ import {services} from '../../constants';
 
 const Services = () => {
 	return (
-		<section className='services'>
+		<section className='services' id='about-us'>
 			<div className='title'>
 				<img src={logo} alt='logo' className='logo' />
 				<h1>Services</h1>

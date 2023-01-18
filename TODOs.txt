@@ -2,13 +2,15 @@
 
 changes:
 
-    - clean up hero section css
+    - add cleaner animations to hero section
     - fix links and ids
     - fix explore section !!
 
+    - booking: change placeholder date 
+    - booking: change input checkbox to be able to check only one 
+    - booking: style checkboxes
+
+    -reviews: make slider
+    
 
 
-features:
-
-    -some animations 
-    - media tablet and mobile 

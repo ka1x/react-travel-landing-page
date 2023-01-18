@@ -1,4 +1,4 @@
-import {partner_1, partner_2, partner_3, partner_4, card_1, card_2, card_3, card_4, services_1, services_2, services_3, package_1,package_2,package_3} from '../assets';
+import {partner_1, partner_2, partner_3, partner_4, card_1, card_2, card_3, card_4, services_1, services_2, services_3, package_1,package_2,package_3, socials_be,socials_figma,socials_instagram,socials_messenger} from '../assets';
 
 export const navLinks = [
 	{
@@ -28,7 +28,7 @@ export const stats = [
 	{
 		id: '2',
 		title: 'Tourist Guide',
-		value: '2k+',
+		value: '2+ K',
 	},
 	{
 		id: '3',
@@ -53,6 +53,29 @@ export const partners = [
 	{
 		id: '4',
 		logo: partner_4,
+	},
+];
+
+export const socials = [
+	{
+		id: '1',
+		logo: socials_instagram,
+		alt:'instagram'
+	},
+	{
+		id: '2',
+		logo: socials_messenger,
+		alt:'messenger'
+	},
+	{
+		id: '3',
+		logo: socials_figma,
+		alt: 'figma'
+	},
+	{
+		id: '4',
+		logo: socials_be,
+		alt: 'be'
 	},
 ];
 
@@ -142,3 +165,32 @@ export const packages = [
 	},
 
 ];
+
+export const footer_links = [
+	{
+		id:'1',
+		href: '#',
+		text: 'Privacy Policy'
+	},
+	{
+		id:'2',
+		href: '#',
+		text: 'Terms of Use'
+	},
+	{
+		id:'3',
+		href: '#',
+		text:'Sales and Refunds'
+	},
+	{
+		id:'4',
+		href: '#',
+		text:'Legal'
+	},
+	{
+		id:'5',
+		href: '#',
+		text:'Site Map'
+	}
+
+]
