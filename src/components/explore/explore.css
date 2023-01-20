@@ -2,11 +2,7 @@
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.85)), url(../../assets/explore-bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-
-	/* display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center; */
+	max-height: min-content;
 }
 
 .explore-desc {
@@ -38,7 +34,7 @@
 .explore-search {
 	width: 503px;
 	height: 51px;
-
+	color: black;
 	background: #f1f1f1;
 	border: 1px solid rgba(18, 18, 18, 0.17);
 	border-radius: 13px;
@@ -57,7 +53,7 @@
 	width: 209px;
 	height: 0px;
 	padding: 0;
-
+	margin: 0;
 	border: 1px solid #ffffff;
 }
 
@@ -68,8 +64,9 @@
 .see-more {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex-direction: column;
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .see-more a {
@@ -78,14 +75,12 @@
 
 	font-size: 21px;
 	line-height: 32px;
-    padding: 10px;
+	padding: 10px;
 }
 
 .see-more .line {
 	width: 102px;
 	height: 0px;
-	position: relative;
-	left: 46.7%;
-
+	margin: 0;
 	border: 1px solid #ffffff;
 }

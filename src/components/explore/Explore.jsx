@@ -1,6 +1,6 @@
 
 import './explore.css'
-import {cards} from '../../constants';
+import {cards, packages} from '../../constants';
 
 import PackageCard from '../package-card/PackageCard';
 
@@ -20,7 +20,8 @@ const Explore = () => {
     </div>
 
     <div className="card-container">
-        <PackageCard data={cards}/>
+        {/* <PackageCard data={cards}/> */}
+        <PackageCard data={packages}/>
 
 
     </div>

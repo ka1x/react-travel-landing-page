@@ -19,6 +19,7 @@
 	margin: 0 100px 130px 100px;
 	gap: 80px;
 	justify-content: space-between;
+	align-items: center;
 }
 .name h3 {
 	font-weight: 500;
@@ -35,9 +36,27 @@
 	color: #f3f3f3;
 }
 
+.desc-container{
+	position: relative;
+margin-right: 40px;}
+
 .desc-container p{
 	margin: 45px 0;
 	font-weight: 300;
 
 	line-height: 1.8rem;
+}
+
+.desc-container .stars{
+	text-align: right;
+margin: 20px;}
+
+.desc-container .slider{
+	height: 4px;
+	background: white;
+}
+
+.desc-container .row{
+	position: absolute;
+	right: 0;
 }

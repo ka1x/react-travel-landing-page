@@ -3,14 +3,14 @@
 changes:
 
     - add cleaner animations to hero section
-    - fix links and ids
     - fix explore section !!
 
     - booking: change placeholder date 
     - booking: change input checkbox to be able to check only one 
     - booking: style checkboxes
 
-    -reviews: make slider
+    -reviews: make slider functional and add green
+    
     
 
 

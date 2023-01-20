@@ -37,11 +37,11 @@ const Booking = () => {
 						</div>
 						<div className='input-box fifth'>
 							<img src={profile} className='icon' />
-							<input type='number' placeholder='2 Passengers' id='people' name='people' />
+							<input type='number' placeholder='2 Passengers' id='people' name='people'min={1} />
 						</div>
 						<div className='input-box sixth '>
 							<img src={star} className='icon' />
-							<input type='number' placeholder='1st Class' id='class' name='class' />
+							<input type='number' placeholder='1st Class' id='class' name='class' min={1} max={3} />
 						</div>
 						<input type='submit' value='Search available flights' className='form-booking-submit'></input>
 					</div>

@@ -8,6 +8,8 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	margin: 10px 0 0 0 ;
+
 }
 
 .title h1 {
@@ -15,6 +17,7 @@
 	font-size: 50px;
 	line-height: 80px;
 	color: #009490;
+	margin: 10px;
 }
 
 .title .logo {

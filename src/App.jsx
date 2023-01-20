@@ -1,20 +1,20 @@
 import {useState} from 'react';
 import './App.css';
-import {Navbar, Hero, Partners, Explore, Services, Booking, Packages, Recommendations, Reviews, Footer, Contact} from './components';
+import {Navbar, Hero, Partners, Explore, Services, Booking, Recommendations, Reviews, Footer, Contact} from './components';
 
 function App() {
 	return (
 		<div className='App'>
-			{/* <Navbar /> */}
-			{/* <Hero /> */}
-			{/* <Partners /> */}
-			{/* <Explore/> */}
-			{/* <Services /> */}
-			{/* <Booking /> */}
-			{/* <Recommendations /> */}
+			<Navbar />
+			<Hero />
+			<Partners />
+			<Explore/>
+			<Services />
+			<Booking />
+			<Recommendations />
 			<Reviews />
 			<Contact />
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	);
 }

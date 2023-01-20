@@ -162,7 +162,16 @@ export const packages = [
 		desc:'Rio de Janeiro',
 		info: 'Christ the Redeemer is an Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil, created by French sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa, in collaboration with French engineer Albert Caquot. ',
 		likes: '6676',
+	},	{
+		id: '4',
+		image: card_1,
+		title: 'Taj Mahal',
+		desc:'Agra',
+		info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eligendi maiores omnis, reiciendis quo molestiae, non magni pariatur voluptatum adipisci asperiores vero! Impedit soluta consequuntur debitis tenetur recusandae quidem velit?',
+		likes: '4321',
 	},
+
+
 
 ];
 

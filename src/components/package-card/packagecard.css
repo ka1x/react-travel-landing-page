@@ -1,7 +1,13 @@
-
+.card {
+	display: flex;
+	justify-content: space-around;
+	/* align-items: center; */
+	align-content: stretch;
+	gap: 40px;
+}
 
 .card-body {
-	background: rgba(254, 245, 245, 0.09);
+	background: rgba(227, 135, 135, 0.09);
 	backdrop-filter: blur(39px);
 	/* Note: backdrop-filter has minimal browser support */
 	border-radius: 10px;
@@ -9,7 +15,8 @@
 
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
+	/* resize: both; */
 }
 
 .card-info {
@@ -17,6 +24,11 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.card-img{
+	width: 275px;
+	height: 275px;
 }
 
 .card-info-likes {
@@ -53,8 +65,11 @@
 
 .heart {
 	background: #494949;
-	border-radius: 50%;
-	padding: 10px;
+	/* border-radius: 50%; */
+	width: 35px;
+	height: 35px;
+	padding: 5px;
+	margin: 10px;
 }
 
 .card-info-desc {

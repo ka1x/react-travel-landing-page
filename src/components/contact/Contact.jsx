@@ -4,7 +4,7 @@ import {socials} from '../../constants';
 
 const Contact = () => {
 	return (
-		<section className='contact'>
+		<section className='contact' id='contact'>
 			<h2>Get in Touch With Us</h2>
 
 			<div className='contact-info'>

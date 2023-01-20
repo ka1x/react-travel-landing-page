@@ -33,6 +33,7 @@ margin: 15px;
 	margin-right: px;
     font-size: 16px;
 	min-width: 300px;
+	color: #000;
     
 }
 .subscribe-form input[type='text']::placeholder {

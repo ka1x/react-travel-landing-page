@@ -3,9 +3,9 @@ import {heart, location} from '../../assets';
 
 const PackageCard = ({data}) => {
 	return (
-		<div className='card'>
+		<div className='card'> 
 			{data.map((card) => (
-				<div className='card-body' key={card.id}>
+				<div className='card-body' id={card.id} key={card.id}>
 					<img src={card.image} alt={card.title} className='card-img' />
 
 					<div className='card-info'>
