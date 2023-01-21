@@ -2,8 +2,9 @@
 	background: black;
 	position: relative;
 	color: #fff;
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)), url(../../assets/reviews-bg.jpg) no-repeat;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../../assets/reviews-bg.jpg) no-repeat;
 	background-size: cover;
+	min-height: 722px;
 }
 
 .reviews h1 {
@@ -13,8 +14,8 @@
 	text-align: center;
 }
 
-.reviews .content{
-	    min-height: 200px;
+.reviews .content {
+	min-height: 200px;
 }
 
 .review-container {
@@ -24,50 +25,95 @@
 	gap: 80px;
 	justify-content: space-between;
 	align-items: center;
-}
+	position: absolute;
 
-.review-img{
-	border-radius: 9px;
-	/* margin-right: 80px; */
 	
+	transform: translateX(0);
+	opacity: 1;
+	transition-duration: 1s;
+	transition-property: all;
+	pointer-events: all;
 }
 
-.name h3 {
+.review-container-hidden {
+	position: absolute;
+	opacity: 0;
+	left: -10%;
+	transition-property: all;
+	z-index: -10;
+	pointer-events: none;
+}
+
+
+.review-img {
+	border-radius: 9px;
+	height: 370px;
+	width: 390px;
+
+}
+
+.reviews .name h3 {
 	font-weight: 500;
 	font-size: 21px;
 }
 
-.location {
+.reviews .location {
 	justify-content: flex-start;
-
 }
-.location h4{
+.reviews .location h4 {
 	font-weight: 300;
 	font-size: 18px;
 	color: #f3f3f3;
 }
 
-.desc-container{
+.reviews .desc-container {
 	position: relative;
-margin-right: 40px;}
+	margin-right: 40px;
+	min-width: 840px;
+}
 
-.desc-container p{
+.reviews .desc-container p {
 	margin: 45px 0;
 	font-weight: 300;
 
 	line-height: 1.8rem;
 }
 
-.desc-container .stars{
+.reviews .stars {
 	text-align: right;
-margin: 20px;}
+	margin: 20px;
+}
 
-.desc-container .slider{
+.reviews .desc-container .slider {
 	height: 4px;
 	background: white;
 }
 
-.desc-container .row{
+.reviews .desc-container .row {
 	position: absolute;
 	right: 0;
+}
+
+
+
+.reviews .row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	z-index: 2;
+}
+
+.reviews .row button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 10px;
+	background: #252525;
+	border: none;
+	outline: none; 
+}
+
+.reviews .row button:hover {
+	background: #009490;
 }

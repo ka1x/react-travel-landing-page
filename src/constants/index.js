@@ -1,4 +1,4 @@
-import {partner_1, partner_2, partner_3, partner_4, card_1, card_2, card_3, card_4, services_1, services_2, services_3, package_1, package_2, package_3, socials_be, socials_figma, socials_instagram, socials_messenger, person_1} from '../assets';
+import {partner_1, partner_2, partner_3, partner_4, card_1, card_2, card_3, card_4, services_1, services_2, services_3, package_1, package_2, package_3, socials_be, socials_figma, socials_instagram, socials_messenger, person_1, person_2, person_3} from '../assets';
 
 export const navLinks = [
 	{
@@ -197,20 +197,29 @@ export const footer_links = [
 export const reviews = [
 	{
 		id: '1',
+		name: 'Tionge Silvina ',
+		location: 'Spain',
+		review: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint in sed voluptates quae natus esse dignissimos voluptatum ut provident odio quisquam laboriosam nisi eum, doloremque modi cupiditate ipsam at totam, fugit quam enim dolorem aspernatur. Perferendis consectetur quam sapiente rem.',
+		stars: '5 * * * * *',
+		photo: person_2,
+	},
+	{
+		id: '2',
 		photo: person_1,
 		name: 'Alemayehu Mitzi',
 		location: 'Germany',
 		review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestiae commodi laborum aspernatur, qui ea eius quas? Dolores architecto doloribus ratione, quas sapiente accusantium eius iure eligendi, mollitia, modi veniam culpa aliquid nesciunt aliquam. Culpa, eum molestiae nostrum dicta ut amet commodi explicabo fugit suscipit voluptatibus repudiandae alias blanditiis, dolorem eligendi aperiam inventore, veniam impedit. Expedita voluptatum obcaecati, blanditiis dolores beatae voluptatem tempora et cumque magnam consectetur exercitationem corrupti est!',
-		stars: '5   * * * * *'
+		stars: '5   * * * * *',
 	},
-	// {
-	// 	id: '',
-	// 	name: '',
-	// 	location: '',
-	// 	review: '',
-	// 	stars: '',
-	// 	picture: '',
-	// },
+
+	{
+		id: '3',
+		name: 'Tam Jianyu',
+		location: 'Sweden',
+		review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor explicabo perferendis obcaecati a sit. Tenetur ratione eos temporibus dolorum. Accusamus fugit deserunt nemo placeat repellat ipsam, atque laudantium ab nesciunt. Ea voluptatum voluptate aliquid incidunt, nostrum iusto temporibus itaque voluptatibus, sunt quisquam delectus natus porro alias! Necessitatibus incidunt ea eius.',
+		stars: '5 * * * * *',
+		photo: person_3,
+	},
 	// {
 	// 	id: '',
 	// 	name: '',
