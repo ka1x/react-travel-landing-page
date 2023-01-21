@@ -13,6 +13,10 @@
 	text-align: center;
 }
 
+.reviews .content{
+	    min-height: 200px;
+}
+
 .review-container {
 	display: flex;
 	flex-direction: row;
@@ -21,6 +25,13 @@
 	justify-content: space-between;
 	align-items: center;
 }
+
+.review-img{
+	border-radius: 9px;
+	/* margin-right: 80px; */
+	
+}
+
 .name h3 {
 	font-weight: 500;
 	font-size: 21px;

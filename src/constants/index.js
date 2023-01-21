@@ -1,4 +1,4 @@
-import {partner_1, partner_2, partner_3, partner_4, card_1, card_2, card_3, card_4, services_1, services_2, services_3, package_1,package_2,package_3, socials_be,socials_figma,socials_instagram,socials_messenger} from '../assets';
+import {partner_1, partner_2, partner_3, partner_4, card_1, card_2, card_3, card_4, services_1, services_2, services_3, package_1, package_2, package_3, socials_be, socials_figma, socials_instagram, socials_messenger, person_1} from '../assets';
 
 export const navLinks = [
 	{
@@ -60,25 +60,24 @@ export const socials = [
 	{
 		id: '1',
 		logo: socials_instagram,
-		alt:'instagram'
+		alt: 'instagram',
 	},
 	{
 		id: '2',
 		logo: socials_messenger,
-		alt:'messenger'
+		alt: 'messenger',
 	},
 	{
 		id: '3',
 		logo: socials_figma,
-		alt: 'figma'
+		alt: 'figma',
 	},
 	{
 		id: '4',
 		logo: socials_be,
-		alt: 'be'
+		alt: 'be',
 	},
 ];
-
 
 export const cards = [
 	{
@@ -109,34 +108,28 @@ export const cards = [
 		desc: 'Beijing',
 		likes: '131253',
 	},
-
 ];
 
 export const services = [
 	{
 		id: '1',
-		title:'Best Hotels',
+		title: 'Best Hotels',
 		desc: 'Lorem ipsum dolor sit acus nulla mLorem ipsum dolor sit acus nulla m',
-		img: services_1
-	}
-	,
-    {
-        id: '2',
-        title:'Tourist Guide',
+		img: services_1,
+	},
+	{
+		id: '2',
+		title: 'Tourist Guide',
 		desc: 'Lorem ipsum dolor sit acus nulla mLorem ipsum dolor sit acus nulla m',
-        img: services_2
-	}
-	,
-    {
-        id: '3',
-        title:'Flight Tickets',
+		img: services_2,
+	},
+	{
+		id: '3',
+		title: 'Flight Tickets',
 		desc: 'Lorem ipsum dolor sit acus nulla mLorem ipsum dolor sit acus nulla m',
-        img: services_3
-	}
-]
-
-
-
+		img: services_3,
+	},
+];
 
 export const packages = [
 	{
@@ -159,47 +152,71 @@ export const packages = [
 		id: '3',
 		image: package_3,
 		title: 'Christ the Redeemer',
-		desc:'Rio de Janeiro',
+		desc: 'Rio de Janeiro',
 		info: 'Christ the Redeemer is an Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil, created by French sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa, in collaboration with French engineer Albert Caquot. ',
 		likes: '6676',
-	},	{
+	},
+	{
 		id: '4',
 		image: card_1,
 		title: 'Taj Mahal',
-		desc:'Agra',
+		desc: 'Agra',
 		info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eligendi maiores omnis, reiciendis quo molestiae, non magni pariatur voluptatum adipisci asperiores vero! Impedit soluta consequuntur debitis tenetur recusandae quidem velit?',
 		likes: '4321',
 	},
-
-
-
 ];
 
 export const footer_links = [
 	{
-		id:'1',
+		id: '1',
 		href: '#',
-		text: 'Privacy Policy'
+		text: 'Privacy Policy',
 	},
 	{
-		id:'2',
+		id: '2',
 		href: '#',
-		text: 'Terms of Use'
+		text: 'Terms of Use',
 	},
 	{
-		id:'3',
+		id: '3',
 		href: '#',
-		text:'Sales and Refunds'
+		text: 'Sales and Refunds',
 	},
 	{
-		id:'4',
+		id: '4',
 		href: '#',
-		text:'Legal'
+		text: 'Legal',
 	},
 	{
-		id:'5',
+		id: '5',
 		href: '#',
-		text:'Site Map'
-	}
+		text: 'Site Map',
+	},
+];
 
-]
+export const reviews = [
+	{
+		id: '1',
+		photo: person_1,
+		name: 'Alemayehu Mitzi',
+		location: 'Germany',
+		review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestiae commodi laborum aspernatur, qui ea eius quas? Dolores architecto doloribus ratione, quas sapiente accusantium eius iure eligendi, mollitia, modi veniam culpa aliquid nesciunt aliquam. Culpa, eum molestiae nostrum dicta ut amet commodi explicabo fugit suscipit voluptatibus repudiandae alias blanditiis, dolorem eligendi aperiam inventore, veniam impedit. Expedita voluptatum obcaecati, blanditiis dolores beatae voluptatem tempora et cumque magnam consectetur exercitationem corrupti est!',
+		stars: '5   * * * * *'
+	},
+	// {
+	// 	id: '',
+	// 	name: '',
+	// 	location: '',
+	// 	review: '',
+	// 	stars: '',
+	// 	picture: '',
+	// },
+	// {
+	// 	id: '',
+	// 	name: '',
+	// 	location: '',
+	// 	review: '',
+	// 	stars: '',
+	// 	picture: '',
+	// },
+];
