@@ -1,8 +1,9 @@
 .explore {
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.85)), url(../../assets/explore-bg.png);
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.90)), url(../../assets/explore-bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-height: min-content;
+	padding-bottom: 50px;
 }
 
 .explore-desc {
@@ -54,7 +55,7 @@
 	height: 0px;
 	padding: 0;
 	margin: 0;
-	border: 1px solid #ffffff;
+	border-top: 1px solid #ffffff;
 }
 
 .explore-heading h3 {
@@ -78,9 +79,16 @@
 	padding: 10px;
 }
 
+.see-more:hover .line {
+	transform: scaleX(150%);
+		transition: 0.4s ease-in-out;
+
+}
+
 .see-more .line {
 	width: 102px;
 	height: 0px;
 	margin: 0;
-	border: 1px solid #ffffff;
+	border-top: 1px solid #ffffff;
+
 }

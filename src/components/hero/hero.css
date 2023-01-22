@@ -14,22 +14,28 @@
 	grid-row: 1/-1;
 }
 
-.img {
+.hero .img {
 	grid-row: 1/2;
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
 	opacity: 45%;
-	transition: 0.15s linear;
+	transition: 0.15s linear all;
+
+transform-origin: 50%;
+	
 }
 
-.img:hover {
-	opacity: 90%;
-	box-shadow: 0px -30px 50px 10px rgb(255 255 255 / 10%);
+.hero .img:hover {
+	opacity: 100%;
+	box-shadow: 0px -30px 50px 10px rgb(0 0 0/ 10%);
 	z-index: 3;
+	transform: scale(102%);
+
+
 }
 
-.stats {
+.hero .stats {
 	background: rgb(1, 27, 28);
 	grid-column: 2/-1;
 	grid-row: 2/-1;
@@ -40,7 +46,7 @@
 	text-align: center;
 }
 
-.stats h2 {
+.hero .stats h2 {
 	font-family: 'Bevan';
 	font-style: normal;
 	font-weight: 400;
@@ -49,7 +55,7 @@
 	color: #ffffff;
 }
 
-.stats h3 {
+.hero .stats h3 {
 	font-family: 'JetBrains Mono';
 	font-style: normal;
 	font-weight: 400;

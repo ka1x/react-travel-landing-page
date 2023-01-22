@@ -2,15 +2,17 @@
 
 changes:
 
-    - add cleaner animations to hero section
-    - fix explore section !!
+    Hero
+        - add even more clean animations
 
-    - booking: change placeholder date 
-    - booking: change input checkbox to be able to check only one 
-    - booking: style checkboxes
+    Booking
+        -  change placeholder date 
+        -  change input checkbox to be able to check only one 
+        -  style checkboxes
 
-    -reviews: make slider functional and add green
-    
+
+
+media queries
     
 
 

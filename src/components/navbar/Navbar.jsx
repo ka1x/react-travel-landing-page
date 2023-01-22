@@ -10,7 +10,7 @@ const Navbar = () => {
 			<ul className='links'>
 				{navLinks.map((link, index) => {
 					return <li className='links-item' key={link.id}>
-                        <a href={`#${link.id}`}>{link.title}</a>
+                        <a href={`#${link.id}`} className='link'>{link.title}</a>
                     </li>;
 				})}
 			</ul>

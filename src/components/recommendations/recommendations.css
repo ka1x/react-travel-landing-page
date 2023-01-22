@@ -3,6 +3,7 @@
 	align-items: center;
 	justify-content: center;
 	position: relative;
+	flex-direction: column;
 	padding: 30px 0 60px 0;
 }
 
@@ -24,7 +25,6 @@
 	color: #009490;
 }
 
-
 .recommendations .front-container {
 	/* position: absolute; */
 	position: absolute;
@@ -33,12 +33,35 @@
 	width: 30%;
 	background: #252525;
 	color: white;
-	margin: 130px 105px;
+	margin: 145px 105px;
 	border-radius: 7px;
 	padding: 25px 20px;
 	z-index: 3;
 }
 
+.recommendations .location {
+	display: flex;
+	flex-direction: row;
+}
+
+.recommendations .icon {
+	margin-right: 20px;
+}
+
+.recommendations h3 {
+	font-weight: 500;
+	font-size: 23px;
+}
+
+.recommendations p {
+	margin-top: 30px;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.recommendations h4 {
+	font-weight: 400;
+}
 
 .recommendations .img-container {
 	position: relative;
@@ -54,6 +77,7 @@
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 	border-radius: 7px;
 	z-index: 1;
+	height: 470px;
 }
 
 .recommendations .row {
@@ -76,4 +100,18 @@
 
 .recommendations .row button:hover {
 	background: #009490;
+}
+
+.recommendations .container {
+	display: block;
+	pointer-events: all;
+	z-index: 1;
+	/* transition: 0.5s ease-in-out all; */
+}
+.recommendations .container-hidden {
+	opacity: 0;
+	pointer-events: none;
+	z-index: -5;
+	position: absolute;
+	transition-property: all;
 }

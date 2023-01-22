@@ -1,9 +1,10 @@
 .services {
 	background: #d9d9d9;
 	width: 100%;
+	padding: 50px;
 }
 
-.title {
+  .title {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -12,7 +13,7 @@
 
 }
 
-.title h1 {
+ .title h1 {
 	font-weight: 700;
 	font-size: 50px;
 	line-height: 80px;
@@ -20,13 +21,13 @@
 	margin: 10px;
 }
 
-.title .logo {
+  .title .logo {
 	filter: brightness(0);
 	width: 207px;
 	height: 39px;
 }
 
-.card-container {
+.services  .card-container {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -34,16 +35,20 @@
 	scale: 0.8;
 }
 
-.card {
+.services  .card {
 	padding: 50px;
 	position: relative;
 }
 
-.card img {
+.services  .card img {
 	border-radius: 11px;
+	transition: 0.2s linear;
+}
+.services  .card img:hover {
+	transform: scale(102%);
 }
 
-.card h1 {
+.services .card h1 {
 	font-family: 'JetBrains Mono';
 	font-weight: 700;
 	font-size: 61px;

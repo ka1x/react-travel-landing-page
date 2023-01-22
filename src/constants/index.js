@@ -1,4 +1,4 @@
-import {partner_1, partner_2, partner_3, partner_4, card_1, card_2, card_3, card_4, services_1, services_2, services_3, package_1, package_2, package_3, socials_be, socials_figma, socials_instagram, socials_messenger, person_1, person_2, person_3} from '../assets';
+import {partner_1, partner_2, partner_3, partner_4, card_1, card_2, card_3, card_4, services_1, services_2, services_3, package_1, package_2, package_3, socials_be, socials_figma, socials_instagram, socials_messenger, person_1, person_2, person_3, recommendations, recommendations_2, recommendations_3} from '../assets';
 
 export const navLinks = [
 	{
@@ -32,7 +32,7 @@ export const stats = [
 	},
 	{
 		id: '3',
-		title: 'Tourist center',
+		title: 'Tourist Center',
 		value: '1.1+ K',
 	},
 ];
@@ -137,7 +137,7 @@ export const packages = [
 		image: package_1,
 		title: 'Colosseum',
 		desc: 'Rome',
-		info: 'The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today, despite its age.',
+		info: 'The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. ',
 		likes: '3245',
 	},
 	{
@@ -145,7 +145,7 @@ export const packages = [
 		image: package_2,
 		title: 'Grand Canyon',
 		desc: 'Arizona',
-		info: 'The Grand Canyon in Arizona is a natural formation distinguished by layered bands of red rock, revealing millions of years of geological history in cross-section. Vast in scale, the canyon averages 10 miles across and a mile deep along its 277-mile length',
+		info: 'The Grand Canyon in Arizona is a natural formation distinguished by layered bands of red rock, revealing millions of years of geological history in cross-section.',
 		likes: '4321',
 	},
 	{
@@ -153,7 +153,7 @@ export const packages = [
 		image: package_3,
 		title: 'Christ the Redeemer',
 		desc: 'Rio de Janeiro',
-		info: 'Christ the Redeemer is an Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil, created by French sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa, in collaboration with French engineer Albert Caquot. ',
+		info: 'Christ the Redeemer is an Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil. ',
 		likes: '6676',
 	},
 	{
@@ -161,7 +161,7 @@ export const packages = [
 		image: card_1,
 		title: 'Taj Mahal',
 		desc: 'Agra',
-		info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eligendi maiores omnis, reiciendis quo molestiae, non magni pariatur voluptatum adipisci asperiores vero! Impedit soluta consequuntur debitis tenetur recusandae quidem velit?',
+		info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eligendi maiores omnis, reiciendis quo molestiae.',
 		likes: '4321',
 	},
 ];
@@ -220,12 +220,30 @@ export const reviews = [
 		stars: '5 * * * * *',
 		photo: person_3,
 	},
-	// {
-	// 	id: '',
-	// 	name: '',
-	// 	location: '',
-	// 	review: '',
-	// 	stars: '',
-	// 	picture: '',
-	// },
 ];
+
+
+export const recs = [
+	{
+		id:'1',
+		img:recommendations,
+		name:'Forbidden City',
+		location:'Beijing',
+		desc:'The Forbidden City is a palace complex in Dongcheng District, Beijing, China, at the center of the Imperial City of Beijing. It was the former Chinese imperial palace and winter residence of the Emperor of China from the Ming dynasty to the end of the Qing dynasty, between 1420 and 1924.',
+	},
+	
+	{
+		id:'2',
+		img:recommendations_2,
+		name:'Grand Canyon',
+		location:'location',
+		desc:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint in sed voluptates quae natus esse dignissimos voluptatum ut provident odio quisquam laboriosam nisi eum, doloremque modi cupiditate ipsam at totam, fugit quam enim dolorem aspernatur.',
+	},
+		{
+		id:'3',
+		img:recommendations_3,
+		name:'Rome',
+		location:'location',
+		desc:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint in sed voluptates quae natus esse dignissimos voluptatum ut provident odio quisquam laboriosam nisi eum.',
+	},
+]
