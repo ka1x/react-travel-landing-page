@@ -67,6 +67,7 @@
 }
 .card-img {
 	padding: 10px;
+	border-radius: 10px;
 }
 .card .card-content {
 	display: flex;

@@ -1,4 +1,4 @@
-import {partner_1, partner_2, partner_3, partner_4, card_1, card_2, card_3, card_4, services_1, services_2, services_3, package_1, package_2, package_3, socials_be, socials_figma, socials_instagram, socials_messenger, person_1, person_2, person_3, recommendations, recommendations_2, recommendations_3} from '../assets';
+import {partner_1, partner_2, partner_3, partner_4, card_2, card_3, card_4,  services_1, services_2, services_3, package_1, socials_be, socials_figma, socials_instagram, socials_messenger, person_1, person_2, person_3, recommendations, recommendations_2, recommendations_3} from '../assets';
 
 export const navLinks = [
 	{
@@ -79,36 +79,6 @@ export const socials = [
 	},
 ];
 
-export const cards = [
-	{
-		id: '1',
-		image: card_2,
-		title: 'Agbokim waterfalls',
-		desc: 'Nigeria, cross river state',
-		likes: '4321',
-	},
-	{
-		id: '2',
-		image: card_1,
-		title: 'Taj Mahal',
-		desc: 'Agra',
-		likes: '4321',
-	},
-	{
-		id: '3',
-		image: card_4,
-		title: 'Eiffel Tower',
-		desc: 'Paris',
-		likes: '231152',
-	},
-	{
-		id: '4',
-		image: card_3,
-		title: 'Great Wall of China',
-		desc: 'Beijing',
-		likes: '131253',
-	},
-];
 
 export const services = [
 	{
@@ -142,23 +112,23 @@ export const packages = [
 	},
 	{
 		id: '2',
-		image: package_2,
-		title: 'Grand Canyon',
-		desc: 'Arizona',
-		info: 'The Grand Canyon in Arizona is a natural formation distinguished by layered bands of red rock, revealing millions of years of geological history in cross-section.',
+		image: card_2,
+		title: 'Tower Bridge',
+		desc: 'London',
+		info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eligendi maiores omnis, reiciendis quo molestiae.',
 		likes: '4321',
 	},
 	{
 		id: '3',
-		image: package_3,
-		title: 'Christ the Redeemer',
-		desc: 'Rio de Janeiro',
-		info: 'Christ the Redeemer is an Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil. ',
+		image: card_3,
+		title: 'Mont Saint-Michel',
+		desc: 'Normandy',
+		info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eligendi maiores omnis, reiciendis quo molestiae.',
 		likes: '6676',
 	},
 	{
 		id: '4',
-		image: card_1,
+		image: card_4,
 		title: 'Taj Mahal',
 		desc: 'Agra',
 		info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eligendi maiores omnis, reiciendis quo molestiae.',
