@@ -7,6 +7,10 @@
 	line-height: 24px;
 	font-weight: 400;
 
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+
 	color-scheme: dark;
 	color: black;
 	background-color: #fff;
@@ -19,23 +23,18 @@
 }
 
 * {
-	font-family: 'Poppins';
 	scroll-behavior: smooth;
-	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-
 }
 
-html {
-	max-width: 100%;
-	min-height: 100vh;
-	overflow-x: hidden;
-}
 body {
+	font-family: 'Poppins';
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 a {
@@ -55,7 +54,7 @@ p {
 	line-height: 22px;
 	color: #ffffff;
 }
-h1{
+h1 {
 	margin: 0.67em;
 }
 
@@ -70,19 +69,25 @@ h2 {
 	color: #ffffff;
 }
 
-h3{
+h3 {
 	font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 36px;
-/* identical to box height */
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+	/* identical to box height */
 
-letter-spacing: 0.01em;
+	letter-spacing: 0.01em;
 }
 
-input, textarea, button{
-		background: none;
-		outline: none;
-		border: none;
+input,
+textarea,
+button {
+	background: none;
+	outline: none;
+	border: none;
+}
+
+input::placeholder {
+	font-family: 'Poppins';
 }

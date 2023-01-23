@@ -1,6 +1,10 @@
 .nav {
-	position: fixed;
+	position: sticky;
+	/* position: fixed; */
 	width: 100%;
+	float:none !important;
+    /* width:auto !important; */
+
 	height: 50px;
 	left: 0;
 	top: 0;

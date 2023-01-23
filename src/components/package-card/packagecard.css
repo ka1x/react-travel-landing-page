@@ -18,6 +18,8 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
+	/* flex-grow: unset; */
+	/* width: 20%; */
 
 }
 
@@ -85,8 +87,6 @@
 .card .heart {
 	background: #494949;
 	border-radius: 50%;
-	width: 35px;
-	height: 35px;
 	padding: 5px;
 	margin: 10px;
 }

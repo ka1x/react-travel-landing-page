@@ -19,6 +19,7 @@
 	font-weight: 700;
 	font-size: 33px;
 	color: black;
+	margin: 0;
 }
 
 .recommendations .title span {
@@ -30,7 +31,7 @@
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 30%;
+	width: 20%;
 	background: #252525;
 	color: white;
 	margin: 145px 105px;
@@ -46,11 +47,14 @@
 
 .recommendations .icon {
 	margin-right: 20px;
+	height: 24px ;
+	width: 24px;
 }
 
 .recommendations h3 {
 	font-weight: 500;
 	font-size: 23px;
+	margin: 0;
 }
 
 .recommendations p {
@@ -61,11 +65,12 @@
 
 .recommendations h4 {
 	font-weight: 400;
+	margin: 0;
 }
 
 .recommendations .img-container {
 	position: relative;
-	left: 5%;
+	left: 10%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
