@@ -9,7 +9,8 @@ import Recommendations from './recommendations/Recommendations'
 import Reviews from './reviews/Reviews'
 import Footer from './footer/Footer'
 import Contact from './contact/Contact'
+import SubmitBtn from './button/Button'
 
 export {
-    Navbar, Hero, Partners, Explore, Services, Booking, Packages,Recommendations,Reviews,Footer,Contact
+    Navbar, Hero, Partners, Explore, Services, Booking, Packages,Recommendations,Reviews,Footer,Contact, SubmitBtn
 }

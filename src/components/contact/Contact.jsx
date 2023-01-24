@@ -1,6 +1,7 @@
 import React from 'react';
 import './contact.css';
 import {socials} from '../../constants';
+import {SubmitBtn} from '../';
 
 const Contact = () => {
 	return (
@@ -29,7 +30,7 @@ const Contact = () => {
 					<input type='text' placeholder='Your email' name='message-email' id='message-email' />
 					<textarea rows='5' cols='60' type='text' placeholder='Message' name='message-content' id='message-content' />
 				</div>
-				<input type='submit' value='Send' />
+				<SubmitBtn text={'Send'}></SubmitBtn>
 			</form>
 		</section>
 	);

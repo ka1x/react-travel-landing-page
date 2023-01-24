@@ -1,6 +1,7 @@
 import './booking.css';
 import {booking, location, profile, calendar, star} from '../../assets';
 
+
 const Booking = () => {
 	return (
 		<section className='booking'>
@@ -44,6 +45,7 @@ const Booking = () => {
 							<input type='number' placeholder='1st Class' id='class' name='class' min={1} max={3} />
 						</div>
 						<input type='submit' value='Search available flights' className='form-booking-submit'></input>
+						
 					</div>
 				</form>
 			</div>

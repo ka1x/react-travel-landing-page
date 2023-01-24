@@ -2,6 +2,7 @@ import React from 'react';
 import './footer.css';
 import {logo} from '../../assets';
 import {footer_links} from '../../constants';
+import {SubmitBtn} from '../';
 
 const Footer = () => {
 	return (
@@ -12,7 +13,7 @@ const Footer = () => {
 
 				<form action='' className='subscribe-form'>
 					<input type='text' name='subscribe-email' id='subscribe-email' placeholder='Enter your email Address' />
-					<input type='submit' value='Subscribe' />
+					<SubmitBtn text={'Subscribe'} />
 				</form>
 				<div className='line'></div>
 			</div>

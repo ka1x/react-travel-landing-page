@@ -1,4 +1,4 @@
-import {partner_1, partner_2, partner_3, partner_4, card_2, card_3, card_4,  services_1, services_2, services_3, package_1, socials_be, socials_figma, socials_instagram, socials_messenger, person_1, person_2, person_3, recommendations, recommendations_2, recommendations_3, sizes} from '../assets';
+import {partner_1, partner_2, partner_3, partner_4, card_2, card_3, card_4,  services_1, services_2, services_3, package_1, socials_be, socials_figma, socials_instagram, socials_messenger, person_1, person_2, person_3, recommendations, recommendations_2, recommendations_3} from '../assets';
 
 export const navLinks = [
 	{
@@ -217,11 +217,3 @@ export const recs = [
 		desc:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint in sed voluptates quae natus esse dignissimos voluptatum ut provident odio quisquam laboriosam nisi eum.',
 	},
 ]
-
-export const sizes = {
-    sm: '640px',
-    md: '768px',
-    lg: '1024px',
-    xl: '1280px',
-    '2xl': '1536px',
-};

@@ -5,7 +5,7 @@
 .contact h2 {
 	width: 100%;
 	background: #00706d;
-	margin: 50px 0px 150px 100px;
+	padding: 50px 0px 150px 100px ; 
 	font-weight: 700;
 	margin: 0;
 }
