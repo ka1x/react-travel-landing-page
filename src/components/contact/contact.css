@@ -144,7 +144,7 @@ textarea::placeholder {
 
 	.contact-info {
 		margin-top: 400px;
-	}
+  	}
 
 	.input-container #message-name {
 		grid-column: 1/-1;
