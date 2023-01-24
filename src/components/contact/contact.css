@@ -81,13 +81,10 @@ textarea::placeholder {
 }
 
 .form-message input[type='submit'] {
-	background: #006360;
 	padding: 10px 90px;
-	border-radius: 5px;
 	margin: 40px 0 20px;
-	cursor: pointer;
     border: none;
-    /* width: min-content; */
+
 }
 
 .socials-container{
@@ -98,4 +95,37 @@ textarea::placeholder {
     align-items: center;
     padding:  0 15px;
     margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1360px) {
+
+	.contact-info{
+		padding: 10px 0 0 130px;
+	}
+	
+}
+
+@media screen and (max-width: 1050px) {
+
+	.form-message {
+		position: absolute;
+		z-index: 2;
+		left: 50%;
+		transform: translateX(-50%);
+		top: 0;
+		bottom: unset;
+		margin: 150px 0;
+		border-radius: 9px;
+		padding: 10px 30px;
+	}
+
+	.contact-info {
+		margin-top: 350px;
+		left: unset;
+		padding: 0 50px;
+	}
+
+	.contact-info h3 {
+		margin-bottom: 10px;
+	}
 }

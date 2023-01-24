@@ -41,6 +41,7 @@
 	grid-template-rows: repeat(6, auto);
 	column-gap: 20px;
 	row-gap: 15px;
+	margin-bottom: 25px;
 }
 
 .form-container .first {
@@ -50,17 +51,6 @@
 	grid-column: 1/-1;
 }
 
-.form-booking-submit {
-	grid-column: 1/-1;
-	background: #006360;
-	border-radius: 5px;
-	outline: none;
-	border: none;
-	padding: 15px 60px;
-	margin-top: 25px;
-	font-size: 14px;
-	font-family: 'Poppins', sans-serif;
-}
 
 .input-box {
 	border: 3px solid #494747;

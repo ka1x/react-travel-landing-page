@@ -1,10 +1,13 @@
 import React from 'react'
 import './button.css'
 
-const SubmitBtn = ({text}) => {
+// const STYLES = ['button--full'];
+
+
+const SubmitBtn = ({text, cname}) => {
   return (
     <>
-        <input type='submit' className="button" value={text}></input>
+        <input type='submit' className={`button ${cname}`} value={text}></input>
     </>
   )
 }
