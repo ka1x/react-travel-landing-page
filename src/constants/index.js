@@ -178,7 +178,7 @@ export const reviews = [
 		photo: person_1,
 		name: 'Alemayehu Mitzi',
 		location: 'Germany',
-		review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestiae commodi laborum aspernatur, qui ea eius quas? Dolores architecto doloribus ratione, quas sapiente accusantium eius iure eligendi, mollitia, modi veniam culpa aliquid nesciunt aliquam. Culpa, eum molestiae nostrum dicta ut amet commodi explicabo fugit suscipit voluptatibus repudiandae alias blanditiis, dolorem eligendi aperiam inventore, veniam impedit. Expedita voluptatum obcaecati, blanditiis dolores beatae voluptatem tempora et cumque magnam consectetur exercitationem corrupti est!',
+		review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestiae commodi laborum aspernatur, qui ea eius quas? Dolores architecto doloribus ratione, quas sapiente accusantium eius iure eligendi, mollitia, modi veniam culpa aliquid nesciunt aliquam. Culpa, eum molestiae nostrum dicta ut amet commodi explicabo fugit suscipit voluptatibus repudiandae alias blanditiis. ',
 		stars: '5   * * * * *',
 	},
 
@@ -186,7 +186,7 @@ export const reviews = [
 		id: '3',
 		name: 'Tam Jianyu',
 		location: 'Sweden',
-		review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor explicabo perferendis obcaecati a sit. Tenetur ratione eos temporibus dolorum. Accusamus fugit deserunt nemo placeat repellat ipsam, atque laudantium ab nesciunt. Ea voluptatum voluptate aliquid incidunt, nostrum iusto temporibus itaque voluptatibus, sunt quisquam delectus natus porro alias! Necessitatibus incidunt ea eius.',
+		review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor explicabo perferendis obcaecati a sit. Tenetur ratione eos temporibus dolorum. Accusamus fugit deserunt nemo placeat repellat ipsam, atque laudantium ab nesciunt. Ea voluptatum voluptate aliquid incidunt.',
 		stars: '5 * * * * *',
 		photo: person_3,
 	},

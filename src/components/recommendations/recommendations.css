@@ -83,6 +83,7 @@
 	border-radius: 7px;
 	z-index: 1;
 	height: 470px;
+
 }
 
 .recommendations .row {
@@ -111,12 +112,23 @@
 	display: block;
 	pointer-events: all;
 	z-index: 1;
-	/* transition: 0.5s ease-in-out all; */
+	opacity: 1;
 }
+
+
 .recommendations .container-hidden {
 	opacity: 0;
 	pointer-events: none;
 	z-index: -5;
 	position: absolute;
-	transition-property: all;
+	left: -10%;
+
+}
+
+.hidden{
+	opacity: 0;
+	pointer-events: none;
+	z-index: -5;
+	position: absolute;
+	left: -10%;
 }
