@@ -1,4 +1,3 @@
-import {hero_1, hero_2, hero_3} from '../../assets';
 import './hero.css';
 import {stats} from '../../constants';
 
@@ -21,11 +20,14 @@ const Hero = () => {
 				</div>
 			</div>
 
-
-			<img src={hero_2} alt='image_2' className='img ' />
-			<img src={hero_1} alt='image_1' className='img ' />
-			<img src={hero_3} alt='image_3' className='img ' />
-
+			<div className='hero-gallery'>
+				<div className='img-box'>
+				</div>
+				<div className='img-box'>
+				</div>
+				<div className='img-box'>
+				</div>
+			</div>
 			<div className='stats'>
 				{stats.map((stat, index) => (
 					<div key={index} className='stat'>

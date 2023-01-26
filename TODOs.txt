@@ -3,8 +3,8 @@
 changes:
 
     Hero
-        - add even more clean animations
-
+        - make gallery a component
+        
     Booking
         -  change placeholder date 
         -  change input checkbox to be able to check only one 

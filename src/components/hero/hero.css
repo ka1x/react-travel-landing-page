@@ -1,7 +1,7 @@
 .hero {
 	/* padding-top: 50px; */
 	display: grid;
-	grid-template-columns: 3fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 4fr 1fr;
 	background: #000;
 	height: 100vh;
@@ -15,26 +15,66 @@
 	grid-row: 1/-1;
 }
 
-.hero .img {
-	grid-row: 1/2;
-	object-fit: cover;
-	width: 100%;
+/* ---------------------gallery-------------------- */
+/* todo:export to component */
+.hero-gallery {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-gallery .img-box {
+	position: relative;
+	width: calc(100% / 3);
 	height: 100%;
-	opacity: 45%;
-	transition: 0.15s linear all;
 
-transform-origin: 50%;
-	
+	transition: all 0.5s;
 }
 
-.hero .img:hover {
-	opacity: 100%;
-	box-shadow: 0px -30px 50px 10px rgb(0 0 0/ 10%);
-	z-index: 3;
-	transform: scale(102%);
-
-
+.hero-gallery .img-box:hover {
+	width: 80%;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2) inset;
 }
+
+
+
+.hero-gallery .img-box::before {
+	content: '';
+	display: block;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.55);
+	transition: background-color 0.5s;
+}
+
+
+.hero-gallery .img-box:hover::before {
+	background-color: transparent;
+}
+
+.hero-gallery .img-box:nth-child(1) {
+	background: url(../../assets/hero-1.png);
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+
+.hero-gallery .img-box:nth-child(2) {
+	background: url(../../assets/hero-2.png);
+
+	background-size: cover;
+	background-position: center;
+}
+.hero-gallery .img-box:nth-child(3) {
+	background: url(../../assets/hero-3.png);
+
+	background-size: cover;
+	background-position: center;
+}
+/* ---------------------gallery end-------------------- */
 
 .hero .stats {
 	background: rgb(1, 27, 28);
