@@ -1,5 +1,6 @@
 import './hero.css';
 import {stats} from '../../constants';
+import {Gallery} from '../';
 
 const Hero = () => {
 	return (
@@ -14,20 +15,14 @@ const Hero = () => {
 				</div>
 				<div className='btn-container'>
 					<div className='line'></div>
-					<button>
-						<a href='#explore'>Explore</a>{' '}
-					</button>
+						<a href='#explore'>
+
+					<button>Explore	</button>
+						</a>
 				</div>
 			</div>
 
-			<div className='hero-gallery'>
-				<div className='img-box'>
-				</div>
-				<div className='img-box'>
-				</div>
-				<div className='img-box'>
-				</div>
-			</div>
+			<Gallery />
 			<div className='stats'>
 				{stats.map((stat, index) => (
 					<div key={index} className='stat'>
