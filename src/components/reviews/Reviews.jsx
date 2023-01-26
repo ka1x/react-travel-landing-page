@@ -47,14 +47,7 @@ class Reviews extends Component {
 
 							<div className='slider'></div>
 							
-							{/* <div className='row'>
-								<button onClick={this.prevSlide}>
-									<img src={arrow_left} alt='left' id='btn-left' />
-								</button>
-								<button onClick={this.nextSlide}>
-									<img src={arrow_right} alt='right' id='btn-right' />
-								</button>
-							</div> */}
+				
 						<PrevNextBtns leftOnClick={this.prevSlide} rightOnClick={this.nextSlide} />
 						</div>
 					</div>

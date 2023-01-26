@@ -90,29 +90,6 @@
 	position: absolute;
 	right: 0;
 }
-/* 
-.reviews .row {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
-	z-index: 2;
-}
-
-.reviews .row button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 8px 10px;
-	background: #252525;
-	border: none;
-	outline: none;
-}
-
-.reviews .row button:hover {
-	background: #009490;
-} */
-
 
 @media screen and (max-width:1200px){
 	.review-container{
