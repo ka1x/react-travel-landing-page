@@ -1,9 +1,9 @@
 import './reviews.css';
-import {location, arrow_left, arrow_right} from '../../assets';
+import {location} from '../../assets';
 import {reviews} from '../../constants';
 import {Component} from 'react';
+import {PrevNextBtns} from '../';
 
-// const Reviews = () => {
 class Reviews extends Component {
 	constructor(props) {
 		super(props);
@@ -28,7 +28,8 @@ class Reviews extends Component {
 				<h1>Tourist Experiences</h1>
 
 				{reviews.map((review, index) => (
-					<div className={index === this.state.currentSlide ? 'review-container' : 'review-container-hidden'} key={index}>
+
+					<div key={index} className={index === this.state.currentSlide ? 'review-container' : 'review-container-hidden'} >
 						<div className='img-container'>
 							<img src={review.photo} alt='profile_photo' className='review-img' />
 						</div>
@@ -45,16 +46,19 @@ class Reviews extends Component {
 							<p className='stars'>{review.stars}</p>
 
 							<div className='slider'></div>
-							<div className='row'>
+							
+							{/* <div className='row'>
 								<button onClick={this.prevSlide}>
 									<img src={arrow_left} alt='left' id='btn-left' />
 								</button>
 								<button onClick={this.nextSlide}>
 									<img src={arrow_right} alt='right' id='btn-right' />
 								</button>
-							</div>
+							</div> */}
+						<PrevNextBtns leftOnClick={this.prevSlide} rightOnClick={this.nextSlide} />
 						</div>
 					</div>
+
 				))}
 			</section>
 		);

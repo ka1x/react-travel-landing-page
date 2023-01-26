@@ -11,7 +11,8 @@ import Footer from './footer/Footer'
 import Contact from './contact/Contact'
 import SubmitBtn from './button/Button'
 import Gallery from './gallery/Gallery'
+import PrevNextBtns from './prev-next-btns/PrevNextBtns'
 
 export {
-    Navbar, Hero, Partners, Explore, Services, Booking, Packages,Recommendations,Reviews,Footer,Contact, SubmitBtn, Gallery
+    Navbar, Hero, Partners, Explore, Services, Booking, Packages,Recommendations,Reviews,Footer,Contact, SubmitBtn, Gallery, PrevNextBtns
 }

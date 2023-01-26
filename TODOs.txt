@@ -1,9 +1,6 @@
 
 
 changes:
-
-    Hero
-        - make gallery a component
         
     Booking
         -  change placeholder date 
@@ -12,11 +9,8 @@ changes:
 
 
 
-
-
 media queries: 
              <Navbar />
-			<Hero />
 			<Services />
 
 

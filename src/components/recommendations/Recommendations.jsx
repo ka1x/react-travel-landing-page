@@ -1,8 +1,8 @@
 import './recommendations.css';
 import {logo, location} from '../../assets';
-import {arrow_left, arrow_right} from '../../assets';
 import {recs} from '../../constants';
 import {Component} from 'react';
+import PrevNextBtns from '../prev-next-btns/PrevNextBtns';
 
 class Recommendations extends Component {
 	constructor(props) {
@@ -47,14 +47,7 @@ class Recommendations extends Component {
 						<div className='img-container'>
 							<img src={item.img} alt={item.name} className={index === this.state.currentSlide ? 'rec-img' : 'rec-img-hidden'} />
 
-							<div className='row'>
-								<button onClick={this.prevSlide}>
-									<img src={arrow_left} alt='left' id='btn-left' />
-								</button>
-								<button onClick={this.nextSlide}>
-									<img src={arrow_right} alt='right' id='btn-right' />
-								</button>
-							</div>
+							<PrevNextBtns leftOnClick={this.prevSlide} rightOnClick={this.nextSlide} />
 						</div>
 					</div>
 				))}
