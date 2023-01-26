@@ -29,9 +29,8 @@ import socials_messenger from './messenger.png';
 import socials_instagram from './instagram.png';
 import socials_figma from './figma.png';
 import socials_be from './be.png';
-import gold_star from './gold-star.png';
 import person_1 from './person-1.png';
 import person_2 from './person-2.jpg';
 import person_3 from './person-3.jpg';
 
-export {logo, hero_bg, hero_1, hero_2, hero_3, partner_1, partner_2, partner_3, partner_4, card_2, card_3, card_4, heart, location, services_1, services_2, services_3, package_1,  recommendations, booking, arrow_left, arrow_right, profile, calendar, star, socials_be, socials_figma, socials_instagram, socials_messenger, gold_star, person_1, person_2, person_3, recommendations_2, recommendations_3};
+export {logo, hero_bg, hero_1, hero_2, hero_3, partner_1, partner_2, partner_3, partner_4, card_2, card_3, card_4, heart, location, services_1, services_2, services_3, package_1,  recommendations, booking, arrow_left, arrow_right, profile, calendar, star, socials_be, socials_figma, socials_instagram, socials_messenger, person_1, person_2, person_3, recommendations_2, recommendations_3};

@@ -5,20 +5,20 @@ import {Gallery} from '../';
 const Hero = () => {
 	return (
 		<div className='hero' id='home'>
-			<div className='hero-bg'></div>
 			<div className='hero-content'>
-				<div className='hero-text'>
-					<h1>
-						Discover <span className='span-1'> New </span> <br /> <span className='span-2'>Experiences </span>
-					</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet sem suspendisse tristique habitant consectetur cursus at. Leo in eget convallis nunc rhoncus nulla m</p>
-				</div>
-				<div className='btn-container'>
-					<div className='line'></div>
+				<div className='hero-container'>
+					<div className='hero-text'>
+						<h1>
+							Discover <span className='span-1'> New </span> <br /> <span className='span-2'>Experiences </span>
+						</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet sem suspendisse tristique habitant consectetur cursus at. Leo in eget convallis nunc rhoncus nulla m</p>
+					</div>
+					<div className='btn-container'>
+						<div className='line'></div>
 						<a href='#explore'>
-
-					<button>Explore	</button>
+							<button>Explore </button>
 						</a>
+					</div>
 				</div>
 			</div>
 
