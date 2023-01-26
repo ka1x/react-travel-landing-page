@@ -20,9 +20,8 @@ const Explore = () => {
 				<div className='line'></div>
 			</div>
 
-			<div className='card-container'>
 				<PackageCard data={packages} />
-			</div>
+
 
 			<div className='see-more'>
 				<a href=''>See More</a>

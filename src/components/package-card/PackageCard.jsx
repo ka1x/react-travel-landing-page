@@ -26,7 +26,6 @@ const PackageCard = ({data}) => {
 					</div>
 				</div>
 			))}
-			s{' '}
 		</div>
 	);
 };

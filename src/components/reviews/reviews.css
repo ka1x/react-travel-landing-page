@@ -30,7 +30,7 @@
 
 	transform: translateX(0);
 	opacity: 1;
-	transition-duration: 1s;
+	transition: 1s ease-in-out forwards;
 	transition-property: all;
 	pointer-events: all;
 }

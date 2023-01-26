@@ -1,5 +1,5 @@
 .explore {
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.90)), url(../../assets/explore-bg.png);
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(../../assets/explore-bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-height: min-content;
@@ -81,8 +81,7 @@
 
 .see-more:hover .line {
 	transform: scaleX(150%);
-		transition: 0.4s ease-in-out;
-
+	transition: 0.4s ease-in-out;
 }
 
 .see-more .line {
@@ -90,5 +89,26 @@
 	height: 0px;
 	margin: 0;
 	border-top: 1px solid #ffffff;
+}
 
+@media screen and (max-width: 1290px) {
+
+	.explore-desc{
+		margin: 80px 100px;
+	}
+}
+
+@media screen and (max-width:690px) {
+	
+.explore-desc{
+	margin: 50px 50px;
+}
+
+	.explore-desc h2{
+		font-size: 40px;
+	}
+
+	.explore-search{
+		width: 80%;
+	}
 }

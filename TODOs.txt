@@ -11,7 +11,14 @@ changes:
         -  style checkboxes
 
 
-media queries
-    
+
+
+
+media queries: 
+             <Navbar />
+			<Hero />
+			<Services />
+
+
 
 

@@ -27,7 +27,6 @@
 }
 
 .recommendations .front-container {
-	/* position: absolute; */
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -47,7 +46,7 @@
 
 .recommendations .icon {
 	margin-right: 20px;
-	height: 24px ;
+	height: 24px;
 	width: 24px;
 }
 
@@ -84,6 +83,15 @@
 	z-index: 1;
 	height: 470px;
 
+	opacity: 1;
+	animation: moveLeft 0.8s ease-in-out forwards;
+}
+n .rec-img-hidden {
+	opacity: 0;
+	pointer-events: none;
+	z-index: -5;
+	position: absolute;
+	left: -10%;
 }
 
 .recommendations .row {
@@ -115,20 +123,62 @@
 	opacity: 1;
 }
 
-
 .recommendations .container-hidden {
 	opacity: 0;
 	pointer-events: none;
 	z-index: -5;
 	position: absolute;
-	left: -10%;
-
+	left: -100%;
 }
 
-.hidden{
-	opacity: 0;
-	pointer-events: none;
-	z-index: -5;
-	position: absolute;
-	left: -10%;
+@media screen and (max-width: 1350px) {
+	.recommendations .img-container {
+		left: 0;
+	}
+
+	.recommendations .front-container {
+		margin: 145px 70px;
+	}
+}
+
+@media screen and (max-width: 1250px) {
+	.recommendations {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.recommendations .front-container {
+		position: relative;
+		margin: 0;
+		width: 70%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.recommendations .rec-img {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		border-radius: 3px;
+		overflow: hidden;
+		object-fit: cover;
+	} 
+}
+
+
+@media screen and (max-width: 1250px) {
+
+	.recommendations .title {
+		flex-direction: column;
+		gap: 10px;
+	}
+	.recommendations .title h2
+	{
+		font-size: 30px;
+	}
+
+	.recommendations .front-container{
+		margin-bottom:350px ;
+
+	}
 }

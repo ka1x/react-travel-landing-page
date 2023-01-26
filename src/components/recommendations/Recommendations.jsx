@@ -2,7 +2,7 @@ import './recommendations.css';
 import {logo, location} from '../../assets';
 import {arrow_left, arrow_right} from '../../assets';
 import {recs} from '../../constants';
-import { Component } from 'react';
+import {Component} from 'react';
 
 class Recommendations extends Component {
 	constructor(props) {
@@ -35,19 +35,6 @@ class Recommendations extends Component {
 
 				{recs.map((item, index) => (
 					<div className={index === this.state.currentSlide ? 'container' : 'container-hidden'} key={index}>
-						<div className='img-container'>
-							<img src={item.img} alt={item.name} className='rec-img' />
-
-							<div className='row'>
-							<button onClick={this.prevSlide}>
-									<img src={arrow_left} alt='left' id='btn-left' />
-								</button>
-								<button onClick={this.nextSlide}>
-									<img src={arrow_right} alt='right' id='btn-right' />
-								</button>
-							</div>
-						</div>
-
 						<div className='front-container'>
 							<h3>{item.name}</h3>
 
@@ -56,6 +43,18 @@ class Recommendations extends Component {
 								<h4>{item.location}</h4>
 							</div>
 							<p>{item.desc}</p>
+						</div>
+						<div className='img-container'>
+							<img src={item.img} alt={item.name} className={index === this.state.currentSlide ? 'rec-img' : 'rec-img-hidden'} />
+
+							<div className='row'>
+								<button onClick={this.prevSlide}>
+									<img src={arrow_left} alt='left' id='btn-left' />
+								</button>
+								<button onClick={this.nextSlide}>
+									<img src={arrow_right} alt='right' id='btn-right' />
+								</button>
+							</div>
 						</div>
 					</div>
 				))}

@@ -160,3 +160,11 @@ textarea::placeholder {
 		grid-row: 4/-1;
 	}
 }
+
+@media screen and (max-width: 450px) {
+
+	.contact h2{
+		font-size: 24px;
+	}
+	
+}
