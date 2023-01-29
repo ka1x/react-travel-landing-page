@@ -4,14 +4,10 @@ changes:
         
     Booking
         -  change placeholder date 
-        -  change input checkbox to be able to check only one 
-        -  style checkboxes
-
 
 
 media queries: 
              <Navbar />
-			<Services />
 
 
 
