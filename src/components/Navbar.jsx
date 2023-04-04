@@ -4,14 +4,10 @@ import {navLinks} from '../constants';
 import '../styles/navbar.css';
 
 class Navbar extends Component {
-   state = {navOpened: false, loginOpened: false};
+   state = {navOpened: false};
 
    handleClick = () => {
       this.setState({clicked: !this.state.navOpened});
-   };
-
-   handleLoginOpen = () => {
-      this.setState({clicked: !this.state.loginOpened});
    };
 
    render() {
@@ -35,9 +31,9 @@ class Navbar extends Component {
                   })}
                </ul>
 
-               <a href='#' className='join-link'>
+               {/* <a href='#' className='join-link'>
                   Join Us
-               </a>
+               </a> */}
 
                <button className='menu-btn'>
                   <img src={menu} alt='navbar_button' onClick={this.handleClick} />
