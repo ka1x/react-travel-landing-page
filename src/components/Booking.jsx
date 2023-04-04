@@ -1,6 +1,6 @@
-import './booking.css';
-import {booking, location, profile, calendar, star} from '../../assets';
-import {SubmitBtn} from '../';
+import '../styles/booking.css';
+import {booking, location, profile, calendar, star} from '../assets';
+import {SubmitBtn} from '.';
 
 const Booking = () => {
 	return (

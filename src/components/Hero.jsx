@@ -1,6 +1,6 @@
-import './hero.css';
-import {stats} from '../../constants';
-import {Gallery} from '../';
+import '../styles/hero.css';
+import {stats} from '../constants';
+import {Gallery} from '.';
 
 const Hero = () => {
 	return (

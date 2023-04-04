@@ -1,6 +1,6 @@
-import './services.css';
-import {logo} from '../../assets/';
-import {services} from '../../constants';
+import '../styles/services.css';
+import {logo} from '../assets';
+import {services} from '../constants';
 
 const Services = () => {
 	return (

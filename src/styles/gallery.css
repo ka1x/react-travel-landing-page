@@ -37,20 +37,20 @@
 }
 
 .hero-gallery .img-box:nth-child(1) {
-	background: url(../../assets/hero-1.png);
+	background: url(../assets/hero-1.png);
 	background-size: cover;
 	background-position: center;
 	height: 100%;
 }
 
 .hero-gallery .img-box:nth-child(2) {
-	background: url(../../assets/hero-2.png);
+	background: url(../assets/hero-2.png);
 
 	background-size: cover;
 	background-position: center;
 }
 .hero-gallery .img-box:nth-child(3) {
-	background: url(../../assets/hero-3.png);
+	background: url(../assets/hero-3.png);
 
 	background-size: cover;
 	background-position: center;

@@ -2,7 +2,7 @@
 	background: black;
 	position: relative;
 	color: #fff;
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../../assets/reviews-bg.jpg) no-repeat;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../assets/reviews-bg.jpg) no-repeat;
 	background-size: cover;
 	min-height: 722px;
 	padding-bottom: 50px;

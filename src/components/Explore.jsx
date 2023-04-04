@@ -1,7 +1,7 @@
-import './explore.css';
-import {packages} from '../../constants';
+import '../styles/explore.css';
+import {packages} from '../constants';
 
-import PackageCard from '../package-card/PackageCard';
+import PackageCard from './PackageCard';
 
 const Explore = () => {
 	return (

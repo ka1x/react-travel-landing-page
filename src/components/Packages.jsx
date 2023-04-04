@@ -1,6 +1,6 @@
-import './packages.css';
-import {packages} from '../../constants';
-import PackageCard from '../package-card/PackageCard';
+import '../styles/packages.css';
+import {packages} from '../constants';
+import PackageCard from './PackageCard';
 
 const Packages = () => {
 	return (

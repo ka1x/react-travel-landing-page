@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import {logo, close, menu} from '../../assets';
-import {navLinks} from '../../constants';
-import './navbar.css';
+import {logo, close, menu} from '../assets';
+import {navLinks} from '../constants';
+import '../styles/navbar.css';
 
 class Navbar extends Component {
 	state = {clicked: false};

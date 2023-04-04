@@ -1,5 +1,5 @@
-import './packagecard.css';
-import {heart, location} from '../../assets';
+import '../styles/packagecard.css';
+import {heart, location} from '../assets';
 
 const PackageCard = ({data}) => {
 	return (

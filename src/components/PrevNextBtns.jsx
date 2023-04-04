@@ -1,6 +1,6 @@
-import './prev-next-btns.css';
+import '../styles/prev-next-btns.css';
 import React from 'react';
-import {arrow_left, arrow_right} from '../../assets';
+import {arrow_left, arrow_right} from '../assets';
 
 
 const PrevNextBtns = ({leftOnClick, rightOnClick}) => {
