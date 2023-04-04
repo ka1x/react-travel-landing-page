@@ -12,11 +12,11 @@ const Explore = () => {
 				</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet sem suspendisse tristique habitant consectetur cursus at. Leo in eget convallis nunc rhoncus nulla m</p>
 
-				<input type='text' className='explore-search' placeholder='Search for Tourist centers, locations' />
+				{/* <input type='text' className='explore-search' placeholder='Search for Tourist centers, locations' /> */}
 			</div>
 
 			<div className='explore-heading'>
-				<h3>Popular Searches</h3>
+				<h3>Popular Locations</h3>
 				<div className='line'></div>
 			</div>
 
