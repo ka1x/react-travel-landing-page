@@ -4,7 +4,7 @@ import {navLinks} from '../constants';
 import '../styles/navbar.css';
 
 class Navbar extends Component {
-   state = {navOpened: false, loginOpened:false};
+   state = {navOpened: false, loginOpened: false};
 
    handleClick = () => {
       this.setState({clicked: !this.state.navOpened});
@@ -17,17 +17,11 @@ class Navbar extends Component {
    render() {
       return (
          <>
-            {this.state.navOpened ? (
-               <>
-                  {' '}
-                  <div className='nav-overlay'></div>{' '}
-               </>
-            ) : (
-               <></>
-            )}
+
 
             <nav className={this.state.navOpened ? 'nav mobile-opened' : 'nav'}>
                <img src={logo} alt='TRAVEL' className='nav-logo' />
+             
 
                <ul className='links'>
                   {navLinks.map((link) => {
@@ -40,9 +34,11 @@ class Navbar extends Component {
                      );
                   })}
                </ul>
+
                <a href='#' className='join-link'>
                   Join Us
                </a>
+
                <button className='menu-btn'>
                   <img src={menu} alt='navbar_button' onClick={this.handleClick} />
                </button>

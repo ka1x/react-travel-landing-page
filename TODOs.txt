@@ -1,11 +1,5 @@
 
-
-changes:
-        
-    Booking
-        -  change placeholder date 
     
-Additions:
 
-    Login:
-        -make login form 
+- make join us button functional
+-make see more functional
