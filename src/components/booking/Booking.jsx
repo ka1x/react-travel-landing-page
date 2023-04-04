@@ -44,7 +44,6 @@ const Booking = () => {
 							<img src={star} className='icon' />
 							<input type='number' placeholder='1st Class' id='class' name='class' min={1} max={3} />
 						</div>
-						{/* <input type='submit' value='Search available flights' className='form-booking-submit'></input> */}
 					</div>
 					<SubmitBtn text={'Search available flights'} cname='button--full'></SubmitBtn>
 				</form>

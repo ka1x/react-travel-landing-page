@@ -4,11 +4,10 @@ changes:
         
     Booking
         -  change placeholder date 
+    Navbar:
+        - change styles
+    
+Additions:
 
-
-media queries: 
-             <Navbar />
-
-
-
-
+    Login:
+        -make login form 
