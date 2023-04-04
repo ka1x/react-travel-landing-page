@@ -4,6 +4,7 @@
 	background-size: cover;
 	max-height: min-content;
 	padding-bottom: 50px;
+
 }
 
 .explore-desc {
@@ -12,6 +13,7 @@
 	justify-content: center;
 	align-items: center;
 	margin: 80px 300px;
+
 }
 
 .explore-desc h2 {

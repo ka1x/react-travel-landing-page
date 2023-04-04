@@ -12,8 +12,7 @@ import Contact from './Contact'
 import SubmitBtn from './Button'
 import Gallery from './Gallery'
 import PrevNextBtns from './PrevNextBtns'
-import HeroBtn from './HeroBtn'
 
 export {
-    Navbar, Hero, Partners, Explore, Services, Booking, Packages,Recommendations,Reviews,Footer,Contact, SubmitBtn, Gallery, PrevNextBtns, HeroBtn
+    Navbar, Hero, Partners, Explore, Services, Booking, Packages,Recommendations,Reviews,Footer,Contact, SubmitBtn, Gallery, PrevNextBtns
 }
