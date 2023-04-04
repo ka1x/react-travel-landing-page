@@ -1,6 +1,6 @@
 import '../styles/hero.css';
 import {stats} from '../constants';
-import {Gallery} from '.';
+import {Gallery, HeroBtn} from '.';
 
 const Hero = () => {
 	return (
@@ -13,12 +13,12 @@ const Hero = () => {
 						</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet sem suspendisse tristique habitant consectetur cursus at. Leo in eget convallis nunc rhoncus nulla m</p>
 					</div>
-					<div className='btn-container'>
-						<div className='line'></div>
-						<a href='#explore'>
-							<button>Explore </button>
-						</a>
-					</div>
+
+{/* ------------------------------------------------------ */}
+			<HeroBtn></HeroBtn>
+{/* ------------------------------------------------------ */}
+
+
 				</div>
 			</div>
 
