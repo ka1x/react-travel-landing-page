@@ -24,7 +24,7 @@ class Recommendations extends Component {
 
 	render() {
 		return (
-			<section className='recommendations'>
+			<section className='recommendations' id='recommendations'>
 				<div className='title'>
 					<img src={logo} alt='TRAVEL' />
 

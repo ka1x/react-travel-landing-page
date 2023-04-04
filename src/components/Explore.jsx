@@ -24,7 +24,7 @@ const Explore = () => {
 
 
 			<div className='see-more'>
-				<a href=''>See More</a>
+				<a href='#recommendations'>See More</a>
 				<div className='line'></div>
 			</div>
 		</section>

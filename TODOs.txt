@@ -2,4 +2,3 @@
     
 
 - make join us button functional
--make see more functional
