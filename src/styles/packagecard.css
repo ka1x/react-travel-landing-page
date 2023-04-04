@@ -1,8 +1,6 @@
 .card {
 	display: flex;
-	/* justify-content: space-around; */
 	justify-content: center;
-	/* padding: 100px 69px; */
 	padding: 80px 0;
 }
 
@@ -53,7 +51,6 @@
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 28px;
-	/* identical to box height */
 	margin: 10px;
 	letter-spacing: 0.01em;
 
@@ -103,7 +100,6 @@
 	}
 	.card-body {
 		scale: 1;
-		/* margin: 0 60px; */
 	}
 }
 
