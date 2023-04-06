@@ -131,7 +131,7 @@ display: none;
 	.booking {
 		display: flex;
 		justify-content: center;
-		background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.96)), url(../../assets/booking.png) no-repeat;
+		background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.96)), url(../assets/booking.png) no-repeat;
 		background-size: cover;
 	}
 	.right-side {

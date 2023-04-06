@@ -1,8 +1,8 @@
 import React from 'react';
-import './footer.css';
-import {logo} from '../../assets';
-import {footer_links} from '../../constants';
-import {SubmitBtn} from '../';
+import '../styles/footer.css';
+import {logo} from '../assets';
+import {footer_links} from '../constants';
+import {SubmitBtn} from '.';
 
 const Footer = () => {
 	return (

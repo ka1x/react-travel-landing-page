@@ -2,7 +2,7 @@ import {partner_1, partner_2, partner_3, partner_4, card_2, card_3, card_4,  ser
 
 export const navLinks = [
 	{
-		id: 'home',
+		id: '',
 		title: 'Home',
 	},
 	{
@@ -12,6 +12,10 @@ export const navLinks = [
 	{
 		id: 'about-us',
 		title: 'About Us',
+	},	
+	{
+		id: 'booking',
+		title: 'Booking',
 	},
 	{
 		id: 'contact',

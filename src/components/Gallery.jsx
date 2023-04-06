@@ -1,4 +1,4 @@
-import './gallery.css';
+import '../styles/gallery.css';
 
 import React from 'react';
 

@@ -1,6 +1,6 @@
 
-import { partners } from "../../constants"
-import './partners.css'
+import { partners } from "../constants"
+import '../styles/partners.css'
 
 
 const Partners = () => {

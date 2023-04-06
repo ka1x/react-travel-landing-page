@@ -1,7 +1,7 @@
 import React from 'react';
-import './contact.css';
-import {socials} from '../../constants';
-import {SubmitBtn} from '../';
+import '../styles/contact.css';
+import {socials} from '../constants';
+import {SubmitBtn} from '.';
 
 const Contact = () => {
 	return (

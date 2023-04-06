@@ -1,8 +1,8 @@
-import './recommendations.css';
-import {logo, location} from '../../assets';
-import {recs} from '../../constants';
+import '../styles/recommendations.css';
+import {logo, location} from '../assets';
+import {recs} from '../constants';
 import {Component} from 'react';
-import PrevNextBtns from '../prev-next-btns/PrevNextBtns';
+import PrevNextBtns from './PrevNextBtns';
 
 class Recommendations extends Component {
 	constructor(props) {
@@ -24,7 +24,7 @@ class Recommendations extends Component {
 
 	render() {
 		return (
-			<section className='recommendations'>
+			<section className='recommendations' id='recommendations'>
 				<div className='title'>
 					<img src={logo} alt='TRAVEL' />
 

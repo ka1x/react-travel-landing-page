@@ -1,8 +1,8 @@
-import './reviews.css';
-import {location} from '../../assets';
-import {reviews} from '../../constants';
+import '../styles/reviews.css';
+import {location} from '../assets';
+import {reviews} from '../constants';
 import {Component} from 'react';
-import {PrevNextBtns} from '../';
+import {PrevNextBtns} from '.';
 
 class Reviews extends Component {
 	constructor(props) {

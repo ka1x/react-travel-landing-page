@@ -1,7 +1,7 @@
-import './explore.css';
-import {packages} from '../../constants';
+import '../styles/explore.css';
+import {packages} from '../constants';
 
-import PackageCard from '../package-card/PackageCard';
+import PackageCard from './PackageCard';
 
 const Explore = () => {
 	return (
@@ -12,11 +12,11 @@ const Explore = () => {
 				</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet sem suspendisse tristique habitant consectetur cursus at. Leo in eget convallis nunc rhoncus nulla m</p>
 
-				<input type='text' className='explore-search' placeholder='Search for Tourist centers, locations' />
+				{/* <input type='text' className='explore-search' placeholder='Search for Tourist centers, locations' /> */}
 			</div>
 
 			<div className='explore-heading'>
-				<h3>Popular Searches</h3>
+				<h3>Popular Locations</h3>
 				<div className='line'></div>
 			</div>
 
@@ -24,7 +24,7 @@ const Explore = () => {
 
 
 			<div className='see-more'>
-				<a href=''>See More</a>
+				<a href='#recommendations'>See More</a>
 				<div className='line'></div>
 			</div>
 		</section>
