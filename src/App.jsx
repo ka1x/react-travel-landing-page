@@ -9,9 +9,9 @@ function App() {
 			<Hero />
 			<Partners />
 			<Explore/>
-			<Services />
-			<Booking />
 			<Recommendations />
+			<Booking />
+			<Services />
 			<Reviews />
 			<Contact />
 			<Footer />
