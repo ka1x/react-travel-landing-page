@@ -20,7 +20,7 @@ const Hero = () => {
                <div className='btn-container'>
                   <div className='line'></div>
 
-                  <a href='#explore '>
+                  <a href='#explore'>
                      <i class='fa-solid fa-chevron-down'></i>
                   </a>
                </div>
