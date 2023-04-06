@@ -161,3 +161,11 @@ n .rec-img-hidden {
 
 	}
 }
+@media screen and (max-width: 420px) {
+
+	.recommendations .title h2 {
+		font-size: 25px;
+		text-align: center;
+	 }
+
+}

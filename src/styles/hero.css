@@ -205,3 +205,21 @@
       padding: 0 40px;
    }
 }
+@media screen and (max-width: 420px) {
+   .hero-content h1 {
+      font-size: 40px;
+      line-height: 60px;
+   }
+
+   .hero-content h1 .span-1 {
+      font-size: 15px;
+   }
+   .hero-content h1 .span-2 {
+      font-size: 50px;
+
+   }
+   .hero-content p {
+      font-size: 13px;
+      padding: 0 40px;
+   }
+}
