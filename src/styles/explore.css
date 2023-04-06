@@ -111,30 +111,10 @@
    }
 }
 
-@media screen and (max-width: 640px) {
-   .card {
-      gap: 50px;
-      padding: 1rem;
-   }
-   .card .card-body {
-      scale: 0.8;
-   }
-}
 
 @media screen and (max-width: 460px) {
    .explore-desc h2 {
       font-size: 35px;
       text-align: center;
-   }
-}
-@media screen and (max-width: 420px) {
-   .card {
-      gap: 0;
-   }
-}
-
-@media screen and (max-width: 370px) {
-   .card .card-body {
-      scale: 0.8;
    }
 }
