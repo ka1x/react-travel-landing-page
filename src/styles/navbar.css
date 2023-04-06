@@ -103,7 +103,7 @@
       color: black;
       font-weight: 600;
       font-size: 18px;
-      transition: 0.1s ease-in-out;
+      transition: 0.3s ease-in-out;
       justify-content: center;
       border-radius: 0;
    }
@@ -127,7 +127,7 @@
       position: absolute;
       top: 0;
       right: 0;
-      margin: 1.5rem;
+      margin: .4rem 1.2rem;
    }
 
    .nav {
