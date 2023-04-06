@@ -96,17 +96,39 @@
    display: flex;
    flex-direction: row;
    align-items: center;
-   margin-top: 65px;
+   margin-top: 30px;
    animation: moveRight 1s ease-in-out forwards;
 }
 
 .btn-container .line {
-   border: 0.5px solid #ffffff;
+   border: 1px solid #ffffff;
    grid-column: 1/1;
    /* width: 40%; */
-   width: 60%;
+   width: 50%;
    height: 0;
    margin: 0;
+}
+
+.btn-container i {
+   color: white;
+   margin: 35px;
+   font-size: 1.2rem;
+   cursor: pointer;
+   animation: infinite upAndDown 2s;
+}
+
+@keyframes upAndDown {
+   0% {
+      transform: translateY(-5px);
+   }
+
+   50% {
+      transform: translateY(5px);
+   }
+
+   100% {
+      transform: translateY(-5px);
+   }
 }
 
 @media screen and (max-width: 1200px) {

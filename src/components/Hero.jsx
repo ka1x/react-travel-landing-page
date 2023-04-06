@@ -4,7 +4,10 @@ import {Gallery} from '.';
 
 const Hero = () => {
    return (
-      <div className='hero' id='home'>
+      <div
+         className='hero'
+         id='home'
+      >
          <div className='hero-content'>
             <div className='hero-container'>
                <div className='hero-text'>
@@ -16,6 +19,10 @@ const Hero = () => {
 
                <div className='btn-container'>
                   <div className='line'></div>
+
+                  <a href='#explore '>
+                     <i class='fa-solid fa-chevron-down'></i>
+                  </a>
                </div>
             </div>
          </div>
@@ -23,7 +30,10 @@ const Hero = () => {
          <Gallery />
          <div className='stats'>
             {stats.map((stat, index) => (
-               <div key={index} className='stat'>
+               <div
+                  key={index}
+                  className='stat'
+               >
                   <h3>{stat.title}</h3>
                   <h2>{stat.value}</h2>
                </div>
