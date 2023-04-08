@@ -3,7 +3,6 @@
 	position: relative;
 }
 .contact h2 {
-	width: 100%;
 	background: #00706d;
 	padding: 50px 0px 150px 100px;
 	font-weight: 700;
@@ -21,6 +20,7 @@
 	position: inherit;
 	left: 50%;
 	padding-top: 10px;
+	width: 100%;
 }
 
 .contact-info h3 {
