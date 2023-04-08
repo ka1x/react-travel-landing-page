@@ -13,11 +13,10 @@ class Navbar extends Component {
    render() {
       return (
          <>
-
+            {this.state.navOpened ? <div className='nav-overlay'> </div> : <></>}
 
             <nav className={this.state.navOpened ? 'nav mobile-opened' : 'nav'}>
                <img src={logo} alt='TRAVEL' className='nav-logo' />
-             
 
                <ul className='links'>
                   {navLinks.map((link) => {

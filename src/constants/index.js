@@ -9,14 +9,15 @@ export const navLinks = [
 		id: 'explore',
 		title: 'Explore',
 	},
-	{
-		id: 'about-us',
-		title: 'About Us',
-	},	
+
 	{
 		id: 'booking',
 		title: 'Booking',
 	},
+	{
+		id: 'about-us',
+		title: 'About Us',
+	},	
 	{
 		id: 'contact',
 		title: 'Contact',

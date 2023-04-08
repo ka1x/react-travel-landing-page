@@ -1,5 +1,5 @@
 .nav {
-   position: sticky;
+   position: fixed;
    width: 100%;
    height: 50px;
    left: 0;
@@ -12,6 +12,7 @@
    font-size: 16px;
    z-index: 99;
    box-shadow: 0px 20px 89px 14px rgba(0, 0, 0, 0.2);
+   
 }
 
 .nav-logo {
@@ -74,6 +75,19 @@
    vertical-align: middle;
 }
 
+.nav-overlay{
+   
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   content: '';
+   background: rgba(0, 0, 0, 0.7);
+   z-index: 10;
+
+}
+
 
 @media screen and (max-width: 1250px) {
    .nav .links,
@@ -103,7 +117,6 @@
       color: black;
       font-weight: 600;
       font-size: 18px;
-      transition: 0.3s ease-in-out;
       justify-content: center;
       border-radius: 0;
    }
