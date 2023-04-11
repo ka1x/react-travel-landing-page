@@ -19,6 +19,7 @@ $font-family_2: 'JetBrains Mono';
 }
 .hero {
 	display: grid;
+	margin-top: 50px;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 4fr 1fr;
 	background: #000;
