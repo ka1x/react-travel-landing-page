@@ -1,0 +1,61 @@
+$background-color_1: rgba(0, 0, 0, 0.55);
+$background-color_2: transparent;
+
+/* ---------------------gallery-------------------- */
+/* todo:export to component */
+/* ---------------------gallery end-------------------- */
+.hero-gallery {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.img-box {
+		position: relative;
+		width: calc(100% / 3);
+		height: 100%;
+		transition: all 0.5s;
+		&:hover {
+			width: 80%;
+			box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2) inset;
+			scale: 1;
+			&::before {
+				background-color: $background-color_2;
+			}
+		}
+		&::before {
+			content: '';
+			display: block;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background-color: $background-color_1;
+			transition: background-color 0.5s;
+		}
+		&:nth-child(1) {
+			background: url(../../assets/hero-1.png);
+			background-size: cover;
+			background-position: center;
+			height: 100%;
+		}
+		&:nth-child(2) {
+			background: url(../../assets/hero-2.png);
+			background-size: cover;
+			background-position: center;
+		}
+		&:nth-child(3) {
+			background: url(../../assets/hero-3.png);
+			background-size: cover;
+			background-position: center;
+		}
+	}
+}
+@media screen and (max-width: 1050px) {
+	.hero-gallery {
+		.img-box {
+			&:hover {
+				width: 40%;
+			}
+		}
+	}
+}

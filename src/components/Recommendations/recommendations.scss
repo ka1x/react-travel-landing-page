@@ -1,0 +1,150 @@
+$color_1: black;
+$color_2: #009490;
+$color_3: white;
+
+.recommendations {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	flex-direction: column;
+	padding: 30px 0 60px 0;
+	.title {
+		margin: 35px 0 70px;
+		img {
+			filter: brightness(0);
+		}
+		h2 {
+			font-weight: 700;
+			font-size: 33px;
+			color: $color_1;
+			margin: 0;
+		}
+		span {
+			color: $color_2;
+		}
+	}
+	.front-container {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 20%;
+		background: #252525;
+		color: $color_3;
+		margin: 145px 105px;
+		border-radius: 7px;
+		padding: 25px 20px;
+		z-index: 3;
+	}
+	.location {
+		display: flex;
+		flex-direction: row;
+	}
+	.icon {
+		margin-right: 20px;
+		height: 24px;
+		width: 24px;
+	}
+	h3 {
+		font-weight: 500;
+		font-size: 23px;
+		margin: 0;
+	}
+	p {
+		margin-top: 30px;
+		font-weight: 300;
+		font-size: 16px;
+	}
+	h4 {
+		font-weight: 400;
+		margin: 0;
+	}
+	.img-container {
+		position: relative;
+		left: 10%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.rec-img {
+		object-fit: contain;
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+		border-radius: 7px;
+		z-index: 1;
+		height: 470px;
+		opacity: 1;
+		animation: moveLeft 0.8s ease-in-out forwards;
+	}
+	.container {
+		display: block;
+		pointer-events: all;
+		z-index: 1;
+		opacity: 1;
+	}
+	.container-hidden {
+		opacity: 0;
+		pointer-events: none;
+		z-index: -5;
+		position: absolute;
+		left: -100%;
+	}
+}
+n {
+	.rec-img-hidden {
+		opacity: 0;
+		pointer-events: none;
+		z-index: -5;
+		position: absolute;
+		left: -10%;
+	}
+}
+@media screen and (max-width: 1350px) {
+	.recommendations {
+		.img-container {
+			left: 0;
+		}
+		.front-container {
+			margin: 145px 70px;
+		}
+	}
+}
+@media screen and (max-width: 1250px) {
+	.recommendations {
+		display: flex;
+		flex-direction: column;
+		.front-container {
+			position: relative;
+			margin: 0;
+			width: 70%;
+			left: 50%;
+			transform: translateX(-50%);
+			margin-bottom: 350px;
+		}
+		.rec-img {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			border-radius: 3px;
+			overflow: hidden;
+			object-fit: cover;
+		}
+		.title {
+			flex-direction: column;
+			gap: 10px;
+			h2 {
+				font-size: 30px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 420px) {
+	.recommendations {
+		.title {
+			h2 {
+				font-size: 25px;
+				text-align: center;
+			}
+		}
+	}
+}
