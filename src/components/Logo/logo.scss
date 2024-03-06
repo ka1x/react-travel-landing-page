@@ -1,0 +1,14 @@
+.logo {
+   font-weight: 900;
+   letter-spacing: -2px;
+   color: #c6c3c3;
+   font-size: 1.5rem;
+   position: relative;
+   width: min-content;
+   > span {
+      // transform: translateX(-100px);
+      position: absolute;
+      left: 44%;
+      transform: scaleX(0.6);
+   }
+}

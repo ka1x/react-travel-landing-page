@@ -12,7 +12,22 @@ import Contact from './src/components/Contact/Contact'
 import SubmitBtn from './src/components/Button/Button'
 import Gallery from './src/components/Gallery/Gallery'
 import PrevNextBtns from './src/components/PrevNextBtns/PrevNextBtns'
+import Logo from './src/components/Logo/Logo'
 
 export {
-    Navbar, Hero, Partners, Explore, Services, Booking, Packages,Recommendations,Reviews,Footer,Contact, SubmitBtn, Gallery, PrevNextBtns
+  Navbar,
+  Hero,
+  Partners,
+  Explore,
+  Services,
+  Booking,
+  Packages,
+  Recommendations,
+  Reviews,
+  Footer,
+  Contact,
+  SubmitBtn,
+  Gallery,
+  PrevNextBtns,
+  Logo
 }

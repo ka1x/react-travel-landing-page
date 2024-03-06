@@ -11,8 +11,8 @@ const Contact = () => {
 			<div className='contact-info'>
 				<h3>Contact info</h3>
 
-				<p>Phone: +234 706338**</p>
-				<p>Email: Stephenolushola5@gmail.com</p>
+				<p>Phone: +1 123123***</p>
+				<p>Email: travel@example.agency</p>
 				<p>Socials</p>
 				<div className='socials-container'>
 					{socials.map((social) => (

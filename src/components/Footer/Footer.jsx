@@ -3,12 +3,14 @@ import './footer.scss';
 import {logo} from '../../assets';
 import {footer_links} from '../../constants';
 import SubmitBtn from '../Button/Button';
+import Logo from '../Logo/Logo';
 
 const Footer = () => {
 	return (
 		<section className='footer'>
 			<div className='subscribe'>
-				<img src={logo} alt='' className='' />
+				{/* <img src={logo} alt='' className='' /> */}
+				<Logo/>
 				<p>Subscribe to stay</p>
 
 				<form action='' className='subscribe-form'>

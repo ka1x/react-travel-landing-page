@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {logo, close, menu} from '../../assets';
 import {navLinks} from '../../constants';
 import './navbar.scss';
+import Logo from '../Logo/Logo';
 
 class Navbar extends Component {
    state = {navOpened: false};
@@ -16,7 +17,8 @@ class Navbar extends Component {
             {this.state.navOpened ? <div className='nav-overlay'> </div> : <></>}
 
             <nav className={this.state.navOpened ? 'nav mobile-opened' : 'nav'}>
-               <img src={logo} alt='TRAVEL' className='nav-logo' />
+               {/* <img src={logo} alt='TRAVEL' className='nav-logo' /> */}
+               <Logo type='nav-logo'/>
 
                <ul className='links'>
                   {navLinks.map((link) => {
