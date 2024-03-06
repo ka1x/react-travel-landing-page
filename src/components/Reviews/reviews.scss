@@ -150,12 +150,15 @@ $color_2: #f3f3f3;
 }
 @media screen and (max-width: 600px) {
    .reviews {
-      padding-bottom: 400px;
+      padding-bottom: 200px;
+   }
+    .review-container {
+     width: unset;
    }
 }
 @media screen and (max-width: 500px) {
    .reviews {
-      padding-bottom: 450px;
+      padding-bottom: 200px;
    }
    .review-img {
       width: 90%;
