@@ -29,7 +29,7 @@ class Reviews extends Component {
 
 				{reviews.map((review, index) => (
 
-					<div key={index} className={index === this.state.currentSlide ? 'review-container' : 'review-container-hidden'} >
+					<div key={index} className={index === this.state.currentSlide ? 'review-container' : 'review-container review-hidden'} >
 						<div className='img-container'>
 							<img src={review.photo} alt='profile_photo' className='review-img' />
 						</div>
