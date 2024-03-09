@@ -4,8 +4,6 @@ $color_3: white;
 $background-color_1: transparent;
 $background-color_2: white;
 
-/* -----------------radio------------------------------------------------ */
-/* -----------------radio------------------------------------------------ */
 .booking {
 	background: #272727;
 	display: grid;
@@ -15,7 +13,8 @@ $background-color_2: white;
 .booking-img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	-o-object-fit: cover;
+	   object-fit: cover;
 	z-index: 1;
 	opacity: 0.65;
 }
@@ -40,7 +39,8 @@ $background-color_2: white;
 	display: grid;
 	grid-template-columns: repeat(2, auto);
 	grid-template-rows: repeat(6, auto);
-	column-gap: 20px;
+	-moz-column-gap: 20px;
+	     column-gap: 20px;
 	row-gap: 15px;
 	margin-bottom: 25px;
 	.wide {

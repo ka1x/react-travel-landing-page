@@ -4,6 +4,8 @@
    color: #c6c3c3;
    font-size: 1.5rem;
    position: relative;
+   width: -webkit-min-content;
+   width: -moz-min-content;
    width: min-content;
    > span {
       // transform: translateX(-100px);

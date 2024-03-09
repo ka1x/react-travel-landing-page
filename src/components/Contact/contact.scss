@@ -40,7 +40,8 @@
       left: 5%;
       background: rgba(0, 0, 0, 0.76);
       color: white;
-      backdrop-filter: blur(40.5px);
+      -webkit-backdrop-filter: blur(40.5px);
+              backdrop-filter: blur(40.5px);
       border-radius: 9px 9px 0px 0px;
       text-align: center;
 
@@ -53,7 +54,8 @@
          display: grid;
          grid-template-columns: repeat(2, 1fr);
          grid-template-rows: repeat(3, auto);
-         column-gap: 80px;
+         -moz-column-gap: 80px;
+              column-gap: 80px;
          row-gap: 45px;
          padding: 0 50px;
 
@@ -72,6 +74,26 @@
       input,
       textarea {
          border-bottom: #fff 1px solid;
+      }
+
+      input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+         color: #e6e6e6;
+         font-family: 'Poppins';
+      }
+
+      input::-moz-placeholder, textarea::-moz-placeholder {
+         color: #e6e6e6;
+         font-family: 'Poppins';
+      }
+
+      input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+         color: #e6e6e6;
+         font-family: 'Poppins';
+      }
+
+      input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+         color: #e6e6e6;
+         font-family: 'Poppins';
       }
 
       input::placeholder,
@@ -135,13 +157,7 @@
    }
 }
 
-@media screen and (max-width: 650px) {
-   .contact {
-      .form-message {
-         // width: 80%;
-      }
-   }
-}
+
 @media screen and (max-width: 580px) {
    .contact {
       h2 {
@@ -150,7 +166,8 @@
       .form-message {
          .input-container {
             padding: unset;
-            column-gap: 30px;
+            -moz-column-gap: 30px;
+                 column-gap: 30px;
             scale: 0.9;
          }
       }

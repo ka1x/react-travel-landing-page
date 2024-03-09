@@ -6,6 +6,18 @@ $color_5: white;
 $font-family_1: 'Bevan';
 $font-family_2: 'JetBrains Mono';
 
+@-webkit-keyframes upAndDown {
+	0% {
+		transform: translateY(-5px);
+	}
+	50% {
+		transform: translateY(5px);
+	}
+	100% {
+		transform: translateY(-5px);
+	}
+}
+
 @keyframes upAndDown {
 	0% {
 		transform: translateY(-5px);
@@ -69,7 +81,8 @@ $font-family_2: 'JetBrains Mono';
 		font-size: 80px;
 		line-height: 96px;
 		color: $color_3;
-		animation: moveDown 1s ease-in-out forwards;
+		-webkit-animation: moveDown 1s ease-in-out forwards;
+		        animation: moveDown 1s ease-in-out forwards;
 		.span-1 {
 			font-weight: 500;
 			font-size: 49px;
@@ -84,7 +97,8 @@ $font-family_2: 'JetBrains Mono';
 	}
 	p {
 		padding: 0 85px;
-		animation: moveRight 1s ease-in-out forwards;
+		-webkit-animation: moveRight 1s ease-in-out forwards;
+		        animation: moveRight 1s ease-in-out forwards;
 	}
 }
 .hero-gallery {
@@ -103,7 +117,8 @@ $font-family_2: 'JetBrains Mono';
 	flex-direction: row;
 	align-items: center;
 	margin-top: 30px;
-	animation: moveRight 1s ease-in-out forwards;
+	-webkit-animation: moveRight 1s ease-in-out forwards;
+	        animation: moveRight 1s ease-in-out forwards;
 	.line {
 		border: 1px solid #ffffff;
 		grid-column: 1/1;
@@ -116,7 +131,8 @@ $font-family_2: 'JetBrains Mono';
 		margin: 35px;
 		font-size: 1.2rem;
 		cursor: pointer;
-		animation: infinite upAndDown 2s;
+		-webkit-animation: infinite upAndDown 2s;
+		        animation: infinite upAndDown 2s;
 	}
 }
 @media screen and (max-width: 1200px) {

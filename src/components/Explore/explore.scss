@@ -3,6 +3,8 @@
      url(../../assets/explore-bg.png);
    background-repeat: no-repeat;
    background-size: cover;
+   max-height: -webkit-min-content;
+   max-height: -moz-min-content;
    max-height: min-content;
    padding-bottom: 50px;
  

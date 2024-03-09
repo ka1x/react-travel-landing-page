@@ -2,12 +2,10 @@
    position: relative;
    background: #000;
    height: 100%;
-   /* background: url('../../assets/footer-bg.jpg'); */
    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../assets/footer-bg.jpg) no-repeat;
    background-position-y: 65%;
 
    .logo {
-      // margin: 15px;
       font-size: 2rem;
    }
 
@@ -75,6 +73,22 @@
          font-size: 14px;
          min-width: 300px;
          color: #000;
+
+         &::-webkit-input-placeholder {
+            color: #b1b5bb;
+         }
+
+         &::-moz-placeholder {
+            color: #b1b5bb;
+         }
+
+         &:-ms-input-placeholder {
+            color: #b1b5bb;
+         }
+
+         &::-ms-input-placeholder {
+            color: #b1b5bb;
+         }
 
          &::placeholder {
             color: #b1b5bb;

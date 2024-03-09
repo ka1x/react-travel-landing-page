@@ -91,8 +91,36 @@ button {
 	border: none;
 }
 
+input::-webkit-input-placeholder {
+	font-family: 'Poppins';
+}
+
+input::-moz-placeholder {
+	font-family: 'Poppins';
+}
+
+input:-ms-input-placeholder {
+	font-family: 'Poppins';
+}
+
+input::-ms-input-placeholder {
+	font-family: 'Poppins';
+}
+
 input::placeholder {
 	font-family: 'Poppins';
+}
+
+@-webkit-keyframes moveDown {
+	from {
+		transform: translateY(-100px);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
 }
 
 @keyframes moveDown {
@@ -118,9 +146,33 @@ input::placeholder {
 
 }
 
+@-webkit-keyframes moveLeft {
+	from {
+		transform: translateX(100px);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
 @keyframes moveLeft {
 	from {
 		transform: translateX(100px);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes moveRight {
+	from {
+		transform: translateX(-100px);
 		opacity: 0;
 	}
 
